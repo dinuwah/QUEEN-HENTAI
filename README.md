@@ -29,52 +29,8 @@ QUEEN HENTAI Multi Device Whatsapp Bot.
 
 
 
-#### DEPLOY TO Heroku 
-
-1. If You Don't Have An Account In Heroku. Create A Account.
-     <br>
-<p align="center"><a href="https://signup.heroku.com"> <img src="https://img.shields.io/badge/heroku%20Account-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
-
-2. Watch the following video to create Heroku acc for free.
-    <br>
-<p align="center"><a href="https://www.youtube.com/watch?v=J_Sq5OxK8ZE"> <img src="https://img.shields.io/badge/heroku%20Tutorial-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
-
-3. Now Deploy
-    <br>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/AbhishekSuresh2/ABHISHEK-SER> <img src="https://img.shields.io/badge/Heroku%20Deploy-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
-
-#### DEPLOY TO Replit 
-
-1. If You don't have an account in Replit. Create a account.
-    <br>
-<p align="center"><a href="https://replit.com/signup"> <img src="https://img.shields.io/badge/replit%20Account-blue?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
-
-2. Now Deploy
-    <br>
-<p align="center"><a href="https://repl.it/github/AbhishekSuresh2/ABHISHEK-SER"> <img src="https://img.shields.io/badge/replit%20Deploy-blue?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
-
-#### DEPLOY TO COOLIFY (Error occurs when server gets overloaded)
-
-1. If You don't have an account in Coolify. Create a account.
-    <br>
-<p align="center"><a href="http://65.21.52.72:3000/register"> <img src="https://img.shields.io/badge/coolify%20Account-blue?style=for-the-badge&logo=coolify" width="220" height="38.45"/></a></p>
-
-2. Now Deploy
-    <br>
-<p align="center"><a href="https://youtu.be/hBxSyqyeoFU"> <img src="https://img.shields.io/badge/Coolify%20Deploy-blue?style=for-the-badge&logo=coolify" width="220" height="38.45"/></a></p>
-  
-1. If You Dont Have Account In Mogenius. Create A Account.
-     <br>
-<p align="center"><a href="https://studio.mogenius.com/studio/cloud-space/cloud-space-overview"> <img src="https://img.shields.io/badge/mogenius%20Account-blue?style=for-the-badge&logo=mogenius" width="220" height="38.45"/></a></p>
-  
-2. Now Deploy
-    <br>
-  <p align="center"><a href="https://studio.mogenius.com/studio/cloud-space/cloud-space-overview"> <img src="https://img.shields.io/badge/mogenius%20Deploy-blue?style=for-the-badge&logo=mogenius" width="220" height="38.45"/></a></p>
-
- ## Guide
-
- - [Termux Hosting Guide](https://github.com/ABHISHEKSURESH2/ABHISHEK-SER/blob/main/Termux-Guide.md)
  
+
  
  ## Support
 
