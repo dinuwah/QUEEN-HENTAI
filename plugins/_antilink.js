@@ -17,7 +17,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin }) {
         await conn.reply(m.chat, `*≡ Link Detected*
             
 We do not allow links from other groups 
-I'M Sorry *@${m.sender.split('@')[0]}*  You Will Be Kicked Out Of The Group ${isBotAdmin ? '' : '\n\nIM Not An Admin So I Cannott Expel You :"v'}`, null, { mentions: [m.sender] } )
+I'M Sorry 💝 Queen Hentai 💝 *@${m.sender.split('@')[0]}*  You Will Be Kicked Out Of The Group ${isBotAdmin ? '' : '\n\nIM Not An Admin So I Cannot 💝 Queen Hentai 💝 Expel You :"v'}`, null, { mentions: [m.sender] } )
         if (isBotAdmin && chat.antiLink) {
         	await conn.sendMessage(m.chat, { delete: m.key })
             await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
