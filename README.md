@@ -21,11 +21,11 @@ QUEEN HENTAI Multi Device Whatsapp Bot.
 
 1. 🇱🇰 Fork The Repo 🇱🇰
     <br>
-<a href='https://github.com/AbhishekSuresh2/ABHISHEK-SER/fork' target="_blank"><img alt='Fork Repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://github.com/dinuwah/QUEEN-HENTAI' target="_blank"><img alt='💝Fork Repo💝' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 2. 🇱🇰 Scan The QR And Upload dinuwa.data.json To Your Fork 🇱🇰(Will Recieve It On Your Bot Number After Scanning)
     <br>
-<a href='https://replit.com/@Abhibro1223344/ABHISHEK-SER-Bot-Qr-Code-Generator?v=1' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://replit.com/@Abhibro1223344/ABHISHEK-SER-Bot-Qr-Code-Generator?v=1' target="_blank"><img alt='💝SCAN QR💝' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
 
