@@ -27,7 +27,45 @@ QUEEN HENTAI Multi Device Whatsapp Bot.
     <br>
 <a href='https://replit.com/@Abhibro1223344/ABHISHEK-SER-Bot-Qr-Code-Generator?v=1' target="_blank"><img alt='💝SCAN QR💝' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
+## ```HEROKU DEPLOYMENT```
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dinuwah/QUEEN-HENTAI)
+
+---------
+
+## ```STEPS TO DEPLOY ON HEROKU```
+
+- 1. Fork this repo (Don't forget to give a star)
+
+- 2. ***Get [SESSION-ID](https://replit.com/@suddhs/Dinuwa-Official-USER-BOT-V3?output%20only=1&lite=1#thumbnail.jpg) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
+
+- 3. Upload your dinuwa.data.json session file.
+
+- 4. Simply click Deploy to heroku button above
+
+## ```QR SCAN```
+
+# 
+
+* [`1️⃣ 𝗦𝗖𝗔𝗡 𝗤𝗥 𝗖𝗢𝗗𝗘`](https://dinuwa-official-user-bot-v3.suddhs.repl.co)
+
+* [`2️⃣ 𝗦𝗖𝗔𝗡 𝗤𝗥 𝗖𝗢𝗗𝗘`](https://replit.com/@suddhs/Dinuwa-Official-USER-BOT-V3?output%20only=1&lite=1#thumbnail.jpg)
+
+* [`3️⃣ 𝗦𝗖𝗔𝗡 𝗤𝗥 𝗖𝗢𝗗𝗘`](https://replit.com/@suddhs/Dinuwa-Official-USER-BOT-V3?output%20only=1&lite=1#thumbnail.jpg)  
+
+---------
+
+## ```DEPLOY IN RAILWAY```
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app)
+
+## ```DEPLOY IN REPLIT```
+
+[![Run on Repl.it](https://repl.it/badge/github/xIKRATOSx/Ikratos-MD-v1)](https://replit.com)
+
+## ```DEPLOY IN MOGENIUS```
+
+[![Deploy on Mogenius](https://telegra.ph/file/946d83b461457a3c1598c.png)](https://studio.mogenius.com/studio/cloud-space/cloud-space-overview)
 
  
 
