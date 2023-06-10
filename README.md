@@ -25,7 +25,7 @@ ABHISHEK-SER Multi Device Whatsapp Bot.
 
 2. Scan the QR and upload abhi.data.json to your fork(will recieve it on your bot number after scanning)
     <br>
-<a href='https://replit.com/@Abhibro1223344/ABHISHEK-SER-QR-CODE-GENERATOR?v=1' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://replit.com/@Abhibro1223344/ABHISHEK-SER-Bot-Qr-Code-Generator?v=1' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
 
