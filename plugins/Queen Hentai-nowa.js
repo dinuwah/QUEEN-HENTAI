@@ -1,7 +1,7 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
     let regex = /x/g
-    if (!text) throw 'Give a number to search'
-    if (!text.match(regex)) throw `*Example: ${usedPrefix + command} 91760590201x*`
+    if (!text) throw 'Give a number 💝 Queen Hentai 💝 to search'
+    if (!text.match(regex)) throw `*Example: ${usedPrefix + command} 94740804536*`
     let random = text.match(regex).length, total = Math.pow(10, random), array = []
     for (let i = 0; i < total; i++) {
     let list = [...i.toString().padStart(random, '0')]
@@ -19,4 +19,4 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     export default handler
     function formatDate(n, locale = 'in') {
     let d = new Date(n)
-    return d.toLocaleDateString(locale, { timeZone: 'Asia/Kolkata' })}
+    return d.toLocaleDateString(locale, { timeZone: 'Asia/Colombo' })}
