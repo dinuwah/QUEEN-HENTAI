@@ -41,7 +41,7 @@ ABHISHEK-SER Multi Device Whatsapp Bot.
 
 3. Now Deploy
     <br>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Guru322/GURU-BOT"> <img src="https://img.shields.io/badge/Heroku%20Deploy-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/AbhishekSuresh2/ABHISHEK-SER> <img src="https://img.shields.io/badge/Heroku%20Deploy-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 #### DEPLOY TO Replit 
 
@@ -51,7 +51,7 @@ ABHISHEK-SER Multi Device Whatsapp Bot.
 
 2. Now Deploy
     <br>
-<p align="center"><a href="https://repl.it/github/avi453/GURU-BOT"> <img src="https://img.shields.io/badge/replit%20Deploy-blue?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://repl.it/github/avi453/AbhishekSuresh2/ABHISHEK-SER> <img src="https://img.shields.io/badge/replit%20Deploy-blue?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
 
 #### DEPLOY TO COOLIFY (Error occurs when server gets overloaded)
 
@@ -69,7 +69,7 @@ ABHISHEK-SER Multi Device Whatsapp Bot.
   
 2. Now Deploy
     <br>
-  <p align="center"><a href="https://studio.mogenius.com/studio/cloud-space/cloud-space-overview"> <img src="https://img.shields.io/badge/Coolify%20Deploy-blue?style=for-the-badge&logo=coolify" width="220" height="38.45"/></a></p>
+  <p align="center"><a href="https://studio.mogenius.com/studio/cloud-space/cloud-space-overview"> <img src="https://img.shields.io/badge/mogenius%20Deploy-blue?style=for-the-badge&logo=mogenius" width="220" height="38.45"/></a></p>
 
  ## Guide
 
