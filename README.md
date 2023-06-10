@@ -23,7 +23,7 @@ ABHISHEK-SER Multi Device Whatsapp Bot.
     <br>
 <a href='https://github.com/AbhishekSuresh2/ABHISHEK-SER/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
-2. Scan the QR and upload guru.data.json to your fork(will recieve it on your bot number after scanning)
+2. Scan the QR and upload abhi.data.json to your fork(will recieve it on your bot number after scanning)
     <br>
 <a href='https://replit.com/@Abhibro1223344/ABHISHEK-SER-QR-CODE-GENERATOR?v=1' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
@@ -73,11 +73,7 @@ ABHISHEK-SER Multi Device Whatsapp Bot.
 
 SUPPORT GROUP: <a href="https://chat.whatsapp.com/BOLb0ICN3sAJ5dloRBw5VD"><img alt="WhatsApp" src="https://camo.githubusercontent.com/2157131829ac512183ee8f8b6c6f803688a4cc66a2e686602844e80478401a7c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2047726f75702d3235443336363f7374796c653d666f722d7468652d6261646765266c6f676f3d7768617473617070266c6f676f436f6c6f723d7768697465"/></a>
 
-- Star ⭐ the repo if you like ABHISHEK-SER.
-
-  # I USED GURU BOT QR💫👻
-
- **THANKS TO** |[GURU](https://github.com/Guru322/GURU-BOT) | 
+- Star ⭐ the repo if you like ABHISHEK-SER
  
 
 
