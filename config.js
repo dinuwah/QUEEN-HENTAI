@@ -59,7 +59,7 @@ global.fgpyp = 'https://youtube.com/@comedymelodych8468'
 global.fglog = 'https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg' 
 
 
-global.wait = '*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*'
+global.wait = '*⌛ _Please Wait..._*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
