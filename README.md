@@ -32,7 +32,7 @@ ABHISHEK-SER Multi Device Whatsapp Bot.
 #### DEPLOY TO Heroku 
 
 1. If You don't have an account in Heroku. Create a account.
-    <br>
+     <br>
 <p align="center"><a href="https://signup.heroku.com"> <img src="https://img.shields.io/badge/heroku%20Account-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 2. Watch the following video to create Heroku acc for free.
@@ -62,7 +62,14 @@ ABHISHEK-SER Multi Device Whatsapp Bot.
 2. Now Deploy
     <br>
 <p align="center"><a href="https://youtu.be/hBxSyqyeoFU"> <img src="https://img.shields.io/badge/Coolify%20Deploy-blue?style=for-the-badge&logo=coolify" width="220" height="38.45"/></a></p>
-
+  
+1. If You Dont Have Account In Mogenius. Create A Account.
+     <br>
+<p align="center"><a href="https://studio.mogenius.com/studio/cloud-space/cloud-space-overview"> <img src="https://img.shields.io/badge/mogenius%20Account-blue?style=for-the-badge&logo=mogenius" width="220" height="38.45"/></a></p>
+  
+2. Now Deploy
+    <br>
+  <p align="center"><a href="https://studio.mogenius.com/studio/cloud-space/cloud-space-overview"> <img src="https://img.shields.io/badge/Coolify%20Deploy-blue?style=for-the-badge&logo=coolify" width="220" height="38.45"/></a></p>
 
  ## Guide
 
