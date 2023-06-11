@@ -2,9 +2,9 @@
 
 let handler = async (m, { conn }) => {
     conn.reply(m.chat, `
-*LIST  COMANDOS*
+*💝 Queen Hentai 💝 LIST  COMANDS*
 
-▢ *Info:* If it is in *bold* it is blocked
+▢ *💝 Queen Hentai 💝 Info:* If it is in *bold* it is blocked
 
 ──────────────────
 ${Object.entries(global.db.data.sticker).map(([key, value], index) => `${index + 1}. ${value.locked ? `(bloqueado) ${key}` : key} : ${value.text}`).join('\n')}
