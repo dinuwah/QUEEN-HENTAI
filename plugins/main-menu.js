@@ -20,7 +20,7 @@ let handler = async (m, { conn, usedPrefix, command}) => {
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `The user is not found in 💝 Queen Hentai 💝 database`
-let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './Abhi.jpg')
+let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './Hentai.jpg')
 let user = global.db.data.users[who]
 let { name, exp, diamond, lastclaim, registered, regTime, age, level, role, warn } = global.db.data.users[who]
 let { min, xp, max } = xpRange(user.level, global.multiplier)
@@ -75,7 +75,7 @@ SPECIAL THANKS T0:
 - 💖 | *DINETHRA*
 
 Type .list for get menu of 💝 Queen Hentai 💝 WA Bot`
-    conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, false, { mentions: [who] })
+    conn.sendFile(m.chat, pp, 'Hentai.jpg', str, m, false, { mentions: [who] })
     m.react(done)
 
 }
