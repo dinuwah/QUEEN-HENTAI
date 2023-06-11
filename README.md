@@ -25,7 +25,7 @@ QUEEN HENTAI Multi Device Whatsapp Bot.
 
 2. 🇱🇰 Scan The QR And Upload dinuwa.data.json To Your Fork 🇱🇰(Will Recieve It On Your Bot Number After Scanning)
     <br>
-<a href='https://replit.com/@Abhibro1223344/ABHISHEK-SER-Bot-Qr-Code-Generator?v=1' target="_blank"><img alt='💝SCAN QR💝' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://replit.com/@kafodip563/QUEEN-HENTAI-QR-CODE-GENERATOR?v=1' target="_blank"><img alt='💝SCAN QR💝' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 ## ```HEROKU DEPLOYMENT```
 
@@ -37,7 +37,7 @@ QUEEN HENTAI Multi Device Whatsapp Bot.
 
 - 1. Fork this repo (Don't forget to give a star)
 
-- 2. ***Get [SESSION-ID](https://replit.com/@suddhs/Dinuwa-Official-USER-BOT-V3?output%20only=1&lite=1#thumbnail.jpg) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
+- 2. ***Get [SESSION-ID](https://replit.com/@kafodip563/QUEEN-HENTAI-QR-CODE-GENERATOR?v=1) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
 
 - 3. Upload your dinuwa.data.json session file.
 
@@ -47,11 +47,11 @@ QUEEN HENTAI Multi Device Whatsapp Bot.
 
 # 
 
-* [`1️⃣ 𝗦𝗖𝗔𝗡 𝗤𝗥 𝗖𝗢𝗗𝗘`](https://dinuwa-official-user-bot-v3.suddhs.repl.co)
+* [`1️⃣ 𝗦𝗖𝗔𝗡 𝗤𝗥 𝗖𝗢𝗗𝗘`](https://replit.com/@kafodip563/QUEEN-HENTAI-QR-CODE-GENERATOR?v=1)
 
-* [`2️⃣ 𝗦𝗖𝗔𝗡 𝗤𝗥 𝗖𝗢𝗗𝗘`](https://replit.com/@suddhs/Dinuwa-Official-USER-BOT-V3?output%20only=1&lite=1#thumbnail.jpg)
+* [`2️⃣ 𝗦𝗖𝗔𝗡 𝗤𝗥 𝗖𝗢𝗗𝗘`](https://replit.com/@kafodip563/QUEEN-HENTAI-QR-CODE-GENERATOR?v=1?output%20only=1&lite=1#thumbnail.jpg)
 
-* [`3️⃣ 𝗦𝗖𝗔𝗡 𝗤𝗥 𝗖𝗢𝗗𝗘`](https://replit.com/@suddhs/Dinuwa-Official-USER-BOT-V3?output%20only=1&lite=1#thumbnail.jpg)  
+* [`3️⃣ 𝗦𝗖𝗔𝗡 𝗤𝗥 𝗖𝗢𝗗𝗘`](https://replit.com/@kafodip563/QUEEN-HENTAI-QR-CODE-GENERATOR?v=1)  
 
 ---------
 
@@ -72,9 +72,9 @@ QUEEN HENTAI Multi Device Whatsapp Bot.
  
  ## Support
 
-SUPPORT GROUP: <a href="https://chat.whatsapp.com/BOLb0ICN3sAJ5dloRBw5VD"><img alt="WhatsApp" src="https://camo.githubusercontent.com/2157131829ac512183ee8f8b6c6f803688a4cc66a2e686602844e80478401a7c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2047726f75702d3235443336363f7374796c653d666f722d7468652d6261646765266c6f676f3d7768617473617070266c6f676f436f6c6f723d7768697465"/></a>
+SUPPORT GROUP: <a href="https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S"><img alt="WhatsApp" src="https://camo.githubusercontent.com/2157131829ac512183ee8f8b6c6f803688a4cc66a2e686602844e80478401a7c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2047726f75702d3235443336363f7374796c653d666f722d7468652d6261646765266c6f676f3d7768617473617070266c6f676f436f6c6f723d7768697465"/></a>
 
-- **Star ⭐ The Repo If You Like ABHISHEK-SER**
+- **Star ⭐ The Repo If You Like 💝 Queen Hentai 💝**
  
 
 
