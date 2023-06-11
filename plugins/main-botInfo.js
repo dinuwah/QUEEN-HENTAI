@@ -41,34 +41,76 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   let neww = performance.now()
   let speed = neww - old
   let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
+if (!(who in global.db.data.users)) throw `💰 The user is not found in 💝 Queen Hentai 💝 database`
 let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './src/avatar_contact.png')
 let user = global.db.data.users[who]
   
 let infobt = `
-≡ *INFO BOT*
+*🇱🇰 :*  Queen Hentai  𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙱𝙾𝚃 ɴᴏᴡ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ COOLIFY
+
+ ᴅᴇᴩʟᴏY ɴᴏᴡ.
+
+This wa bot created by 💝 Dinuwa Official²⁰²³ 💝
+
+🩸You can deploy your bot   in following platforms.
+
+💭 Replit 
+
+💭 Koyeb 
+
+💭 Mogenius 
+
+💭 Heroku 
+
+💭 Coolify 
+
+💭 Clevercloud
+
+💭 Termux
+
+SPECIAL THANKS T0:
+
+- 💖 | **Dinuwa Official²⁰²³(me)**
+
+    
+
+- 💖 | **Abhishek** 
+
+    
+
+- 💖 | **MR Nima** 
+
+- 💖 | **DINETHRA**
+
+*🩸OWNER🩸*
+
+  *Dinuwa Official²⁰²³*
+
+❄️ Instagram :
+
+  • https://instagram.com/Dinuwa Official²⁰²³
+
+❄️ GitHub :
+
+  • https://github.com/dinuwah/QUEEN-HENTAI
+
+❄️ Support  : 
+
+  • https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S
+
   
-*STATE*
-▢ *${groupsIn.length}* GROUP CHATS
-▢ *${groupsIn.length}* united groups
-▢ *${groupsIn.length - groupsIn.length}* abandoned groups
-▢ *${chats.length - groupsIn.length}* private chats
-▢ *${chats.length}* Total Chats
 
-*≡ OWNER*
-  *ABHISHEK SURESH*
-▢ Instagram :
-  • https://instagram.com/abhishek_ser
-▢ GitHub :
-  • https://github.com/AbhishekSuresh2
-▢ Telegram : 
-  • https://t.me/Abhishek_Ser  
-▢ YouTube : 
-  • https://youtube.com/@comedymelodych8468
+▢ Contact : 
 
- *≡ S E R V E R*
-*🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
-*🔵 FreeRAM:* ${format(freemem())}
+  • wa.me:94740804536
+
+*💝 Queen Hentai 💝*
+
+        *S E R V E R*
+
+*🔊 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
+
+*💭 FreeRAM:* ${format(freemem())}
 
 *≡  NodeJS memory *
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
