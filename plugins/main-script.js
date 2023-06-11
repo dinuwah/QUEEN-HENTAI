@@ -5,9 +5,9 @@ let handler = async function (m, { conn, __dirname }) {
 let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
   
 m.reply(`
-*≡ SCRIPT*
+*💝 Queen Hentai 💝 Github*
 
-▢ Git : ${_package.homepage}
+🔊 Repo : ${_package.homepage}
 `.trim())
     
 }
