@@ -10,34 +10,34 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
   let { title, thumbnail, timestamp, views, ago, url } = vid
   let wm = 'Downloading Audio Please Wait'
 
-  let captvid = `╭──── 〔 Y O U T U B E 〕 ─⬣
-⬡ Title: ${title}
-⬡ Duration: ${timestamp}
-⬡ Views: ${views}
-⬡ Upload: ${ago}
-⬡ Link: ${url}
+  let captvid = `╭────  💝 Queen Hentai 💝 YT ─⬣
+💝 Title: ${title}
+💝 Duration: ${timestamp}
+💝 Views: ${views}
+💝 Upload: ${ago}
+💝 Link: ${url}
 ╰────────⬣`
-  conn.sendButton(m.chat, `╭──── 〔 Y O U T U B E 〕 ─⬣
-⬡ Title: ${title}
-⬡ Duration: ${timestamp}
-⬡ Views: ${views}
-⬡ Upload: ${ago}
-⬡ Link: ${url}
-╰────────⬣`, author.trim(), await( await conn.getFile(thumbnail)).data, ['VIDEO', `${usedPrefix}ytmp4 ${url}`], false, { quoted: m, 'document': { 'url':'https://wa.me/917605902011' },
+  conn.sendButton(m.chat, `╭──── 💝 Queen Hentai 💝 YT ─⬣
+💝 Title: ${title}
+💝 Duration: ${timestamp}
+💝 Views: ${views}
+💝 Upload: ${ago}
+💝 Link: ${url}
+╰────────⬣`, author.trim(), await( await conn.getFile(thumbnail)).data, ['💝 VIDEO 💝', `${usedPrefix}ytmp4 ${url}`], false, { quoted: m, 'document': { 'url':'💝 Queen Hentai 💝' },
 'mimetype': global.dpdf,
-'fileName': `𝔸𝔹ℍ𝕀 ℙ𝕃𝔸𝕐𝔼ℝ`,
+'fileName': `💝 Queen Hentai 💝 ℙ𝕃𝔸𝕐𝔼ℝ`,
 'fileLength': 666666666666666,
 'pageCount': 666,contextInfo: { externalAdReply: { showAdAttribution: true,
 mediaType:  2,
 mediaUrl: `${url}`,
-title: `AUDIO IS BEING SENT...`,
+title: `AUDIO IS Uploading by 💝 Queen Hentai 💝...`,
 body: wm,
-sourceUrl: 'http://wa.me/919074692450', thumbnail: await ( await conn.getFile(thumbnail)).data
+sourceUrl: '💝 Queen Hentai 💝', thumbnail: await ( await conn.getFile(thumbnail)).data
   }
  } 
 })
   
-  //let buttons = [{ buttonText: { displayText: '📽VIDEO' }, buttonId: `${usedPrefix}ytv ${url} 360` }]
+  //let buttons = [{ buttonText: { displayText: '💝 VIDEO 💝' }, buttonId: `${usedPrefix}ytv ${url} 360` }]
  //let msg = await conn.sendMessage(m.chat, { image: { url: thumbnail }, caption: captvid, footer: author, buttons }, { quoted: m })
 
   const yt = await youtubedlv2(url).catch(async _ => await youtubedl(url))
