@@ -2,7 +2,7 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, command, args, text }) => {
       
-    if (!args[0]) return m.reply('🔊 Enter the link of a page...')
+    if (!args[0]) return m.reply('🔊 Enter the link of a page..\n\n💰 Ex: \n*.ss https://i.imgur.com/bFEC7lC.jpeg*')
     m.react(rwait) 
 	let full = /f$/i.test(command)
     let u = /https?:\/\//.test(args[0]) ? args[0] : 'https://' + args[0]
