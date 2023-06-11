@@ -7,8 +7,8 @@ const { levelling } = '../lib/levelling.js'
 import moment from 'moment-timezone'
 import { promises } from 'fs'
 import { join } from 'path'
-const time = moment.tz('Asia/Kolkata').format('HH')
-let wib = moment.tz('Asia/Kolkata').format('HH:mm:ss')
+const time = moment.tz('Asia/Colombo').format('HH')
+let wib = moment.tz('Asia/Colombo').format('HH:mm:ss')
 //import db from '../lib/database.js'
 
 let handler = async (m, { conn, usedPrefix, command}) => {
@@ -19,7 +19,7 @@ let handler = async (m, { conn, usedPrefix, command}) => {
     let _uptime = process.uptime() * 1000
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
+if (!(who in global.db.data.users)) throw `The user is not found in 💝 Queen Hentai 💝 database`
 let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './Abhi.jpg')
 let user = global.db.data.users[who]
 let { name, exp, diamond, lastclaim, registered, regTime, age, level, role, warn } = global.db.data.users[who]
@@ -33,36 +33,48 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(850) 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-┏─────────────────⬣
-┆ 𝑯𝒂𝒊, ${name}
-┗┬──────────────┈ ⳹
-┏┤ Bot Info  
-┆┗──────────────┈ ⳹
-┆♠︎ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${botname}
-┆♠︎ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${author}
-┆♠︎ 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗡𝗮𝗺𝗲 :𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺 𝚂𝚄𝚁𝙴𝚂𝙷
-┆♠︎ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 :linux 
-┆♠︎ *Uptime* : ${uptime}
-┆♠︎ *Experience:* ${exp}
-┆♠︎ *Rank:* ${role}
-┆♠︎ *Diamonds:* ${diamond}
-┆♠︎ *Total users:* ${rtotalreg}
-┗┬──────────────┈ ⳹
-┏┤   User Info
-┆┗──────────────┈ ⳹ 
-┆♠︎ 𝗡𝗮𝗺𝗲 :${name}
-│♠︎ 𝗡𝘂𝗺𝗯𝗲𝗿 : ${taguser}
-│♠︎ 𝗣𝗿𝗲𝗺𝗶𝘂𝗺 : ${user.premium = 'true' ? '✅' : '❌'}
-┗┬──────────────┈ ⳹
-┏┤ Calender
-┆┗──────────────┈ ⳹
-┆Time :${wib} 
-┆𝗗𝗮𝘁𝗲 :${date} 
-┗─────────────────⬣
-┆──────────────┈ ⳹
-┆type /list to
-┆to see all cmd
-┗─────────────────⬣`
+WELCOME  ${name}
+
+
+💝 Uptime : ${uptime}
+
+💝 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${author}
+
+💝 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${botname}
+
+💝 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 - Dinuwa Official²⁰²³
+
+💝 𝙽𝚄𝙼𝙱𝙴𝚁 - 94740804536
+
+
+
+🇱🇰 :  Queen Hentai  𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙱𝙾𝚃 ɴᴏᴡ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ COOLIFY
+ ᴅᴇᴩʟᴏY ɴᴏᴡ.
+
+This wa bot created by 💝 Dinuwa Official²⁰²³ 💝
+
+
+🩸You can deploy your bot   in following platforms.
+
+💭 Replit 
+💭 Koyeb 
+💭 Mogenius 
+💭 Heroku 
+💭 Coolify 
+💭 Clevercloud
+💭 Termux
+
+SPECIAL THANKS T0:
+
+- 💖 | *Dinuwa Official²⁰²³(me)*
+    
+- 💖 | *Abhishek* 
+    
+- 💖 | *MR Nima* 
+
+- 💖 | *DINETHRA*
+
+Type .list for get menu of 💝 Queen Hentai 💝 WA Bot`
     conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, false, { mentions: [who] })
     m.react(done)
 
@@ -79,7 +91,7 @@ function clockString(ms) {
     return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
     
     function ucapan() {
-      const time = moment.tz('Asia/Kolkata').format('HH')
+      const time = moment.tz('Asia/Colombo').format('HH')
       let res = "happy early in the day☀️"
       if (time >= 4) {
         res = "Good Morning 🌄"
