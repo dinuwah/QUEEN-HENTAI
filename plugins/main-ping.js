@@ -8,7 +8,7 @@ let handler = async (m, { conn }) => {
          exec(`neofetch --stdout`, (error, stdout, stderr) => {
           let child = stdout.toString("utf-8");
           let ssd = child.replace(/Memory:/, "Ram:");
-          m.reply(`${ssd}👻 _pong_ : ${latensi.toFixed(4)} _ms_`);
+          m.reply(`${ssd}💝 Queen Hentai 💝 _pong_ : ${latensi.toFixed(4)} _ms_  \n\nCreated By 💝 Dinuwa Official²⁰²³ 💝`);
             });
 }
 handler.help = ['ping']
