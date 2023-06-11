@@ -2,14 +2,14 @@ import fetch from 'node-fetch'
 
 let handler = async (m, {conn, text }) => {
   let teks = text ? text : m.quoted && m.quoted.text ? m.quoted.text : ''
-   if (!teks) throw `✳️ Enter the name of the song`
+   if (!teks) throw `Plzz enter the name of the song to 💝 Queen Hentai 💝`
    try {
   let res = await fetch(global.API('https://some-random-api.ml', '/lyrics', { title: teks }))
   if (!res.ok) throw await res.text()
   let json = await res.json()
   if (!json.thumbnail.genius) throw json
   conn.sendFile(m.chat, json.thumbnail.genius, null, `
-▢ *${json.title}*
+🇱🇰 *${json.title}*
 *${json.author}*\n
 ${json.lyrics}`, m)
 m.react(done)
