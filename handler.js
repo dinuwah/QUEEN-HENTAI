@@ -541,11 +541,11 @@ export async function handler(chatUpdate) {
                 else
                     m.exp += xp
                 if (!isPrems && plugin.diamond && global.db.data.users[m.sender].diamond < plugin.diamond * 1) {
-                     this.reply(m.chat, `✳️ your diamonds ran out \n use the following command to buy more diamonds \n*${usedPrefix}todiamond* <amount`, m)
+                     this.reply(m.chat, `💝 Queen Hentai 💝 money finished \n use the following 💝 Queen Hentai 💝 command to buy money \n*${usedPrefix}todiamond* <amount`, m)
                     continue // Limit habis
                 }
                 if (plugin.level > _user.level) {
-                    this.reply(m.chat, `✳️ required level ${plugin.level} to use this command. \nyour level ${_user.level}`, m)
+                    this.reply(m.chat, `💝 Queen Hentai 💝 required level ${plugin.level} to use this 💝 Queen Hentai 💝 command. \nyour level ${_user.level}`, m)
                     continue // If the level has not been reached
                 }
                 let extra = {
@@ -587,7 +587,7 @@ export async function handler(chatUpdate) {
                             for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
                                 let data = (await conn.onWhatsApp(jid))[0] || {}
                                 if (data.exists)
-                                    m.reply(`*🗂️ Plugin:* ${m.plugin}\n*👤 Sender:* ${m.sender}\n*💬 Chat:* ${m.chat}\n*💻 Command:* ${usedPrefix}${command} ${args.join(' ')}\n📄 *Error Logs:*\n\n\`\`\`${text}\`\`\``.trim(), data.jid)
+                                    m.reply(`*💝 Queen Hentai 💝 Plugin:* ${m.plugin}\n*💝 Queen Hentai 💝 Sender:* ${m.sender}\n*💝 Queen Hentai 💝 Chat:* ${m.chat}\n*💝 Queen Hentai 💝 Command:* ${usedPrefix}${command} ${args.join(' ')}\n💝 Queen Hentai 💝 *Error Logs:*\n\n\`\`\`${text}\`\`\``.trim(), data.jid)
                             }
                         m.reply(text)
                     }
@@ -678,14 +678,14 @@ export async function participantsUpdate({ id, participants, action }) {
             if (chat.welcome) {
                 let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata
                 for (let user of participants) {
-                    let pp = 'https://i.imgur.com/8B4jwGq.jpeg'
-                    let ppgp = 'https://i.imgur.com/8B4jwGq.jpeg'
+                    let pp = 'https://i.imgur.com/bFEC7lC.jpeg'
+                    let ppgp = 'https://i.imgur.com/bFEC7lC.jpeg'
                     try {
                         pp = await this.profilePictureUrl(user, 'image')
                         ppgp = await this.profilePictureUrl(id, 'image')
                         } finally {
                         text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user').replace('@group', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || 'Desconocido') :
-                            (chat.sBye || this.bye || conn.bye || 'HELLO, @user')).replace('@user', '@' + user.split('@')[0])
+                            (chat.sBye || this.bye || conn.bye || 'HELLO This Is 💝 Queen Hentai 💝, @user')).replace('@user', '@' + user.split('@')[0])
                          
                             let wel = API('fgmods', '/api/welcome', {
                                 username: await this.getName(user),
@@ -693,7 +693,7 @@ export async function participantsUpdate({ id, participants, action }) {
                                 groupicon: ppgp,
                                 membercount: groupMetadata.participants.length,
                                 profile: pp,
-                                background: 'https://i.imgur.com/bbWbASn.jpg'
+                                background: 'https://i.imgur.com/bFEC7lC.jpeg'
                             }, 'apikey')
 
                             let lea = API('fgmods', '/api/goodbye', {
@@ -702,7 +702,7 @@ export async function participantsUpdate({ id, participants, action }) {
                                 groupicon: ppgp,
                                 membercount: groupMetadata.participants.length,
                                 profile: pp,
-                                background: 'https://i.imgur.com/klTSO3d.jpg'
+                                background: 'https://i.imgur.com/bFEC7lC.jpeg'
                             }, 'apikey')
                              this.sendFile(id, action === 'add' ? wel : lea, 'pp.jpg', text, null, false, { mentions: [user] })
                             /*this.sendButton(id, text, igfg, action === 'add' ? wel : lea, [
@@ -715,11 +715,11 @@ export async function participantsUpdate({ id, participants, action }) {
             break
         case 'promote':
         case 'promover':
-            text = (chat.sPromote || this.spromote || conn.spromote || '@user is now administrador')
+            text = (chat.sPromote || this.spromote || conn.spromote || '@user is now administrador by 💝 Queen Hentai 💝')
         case 'demote':
         case 'degradar':
             if (!text)
-                text = (chat.sDemote || this.sdemote || conn.sdemote || '@user not now an administrador')
+                text = (chat.sDemote || this.sdemote || conn.sdemote || '@user not now an administrador 💝 Queen Hentai 💝')
             text = text.replace('@user', '@' + participants[0].split('@')[0])
             if (chat.detect)
                 this.sendMessage(id, { text, mentions: this.parseMention(text) })
@@ -738,14 +738,14 @@ export async function groupsUpdate(groupsUpdate) {
         if (!id) continue
         let chats = global.db.data.chats[id], text = ''
         if (!chats?.detect) continue
-        if (groupUpdate.desc) text = (chats.sDesc || this.sDesc || conn.sDesc || '```Description has been changed to```\n@desc').replace('@desc', groupUpdate.desc)
-        if (groupUpdate.subject) text = (chats.sSubject || this.sSubject || conn.sSubject || '```Subject has been changed to```\n@subject').replace('@subject', groupUpdate.subject)
-        if (groupUpdate.icon) text = (chats.sIcon || this.sIcon || conn.sIcon || '```Icon has been changed to```').replace('@icon', groupUpdate.icon)
-        if (groupUpdate.revoke) text = (chats.sRevoke || this.sRevoke || conn.sRevoke || '```Group link has been changed to```\n@revoke').replace('@revoke', groupUpdate.revoke)
-        if (groupUpdate.announce == true) text = (chats.sAnnounceOn || this.sAnnounceOn || conn.sAnnounceOn || '*Group has been closed!*')
-        if (groupUpdate.announce == false) text = (chats.sAnnounceOff || this.sAnnounceOff || conn.sAnnounceOff || '*Group has been open!*')
-        if (groupUpdate.restrict == true) text = (chats.sRestrictOn || this.sRestrictOn || conn.sRestrictOn || '*Group has been all participants!*')
-        if (groupUpdate.restrict == false) text = (chats.sRestrictOff || this.sRestrictOff || conn.sRestrictOff || '*Group has been only admin!*')
+        if (groupUpdate.desc) text = (chats.sDesc || this.sDesc || conn.sDesc || '```Description has been changed by 💝 Queen Hentai 💝 to```\n@desc').replace('@desc', groupUpdate.desc)
+        if (groupUpdate.subject) text = (chats.sSubject || this.sSubject || conn.sSubject || '```Subject has been changed by 💝 Queen Hentai 💝 to```\n@subject').replace('@subject', groupUpdate.subject)
+        if (groupUpdate.icon) text = (chats.sIcon || this.sIcon || conn.sIcon || '```Icon has been changed by 💝 Queen Hentai 💝 to```').replace('@icon', groupUpdate.icon)
+        if (groupUpdate.revoke) text = (chats.sRevoke || this.sRevoke || conn.sRevoke || '```Group link has been changed by 💝 Queen Hentai 💝 to```\n@revoke').replace('@revoke', groupUpdate.revoke)
+        if (groupUpdate.announce == true) text = (chats.sAnnounceOn || this.sAnnounceOn || conn.sAnnounceOn || '*Group has been closed by 💝 Queen Hentai 💝 WA BOT*')
+        if (groupUpdate.announce == false) text = (chats.sAnnounceOff || this.sAnnounceOff || conn.sAnnounceOff || '*Group has been open by 💝 Queen Hentai 💝 WA BOT*')
+        if (groupUpdate.restrict == true) text = (chats.sRestrictOn || this.sRestrictOn || conn.sRestrictOn || '*Group has been all participants by 💝 Queen Hentai 💝 WA BOT*')
+        if (groupUpdate.restrict == false) text = (chats.sRestrictOff || this.sRestrictOff || conn.sRestrictOff || '*Group has been only admin by 💝 Queen Hentai 💝 WA BOT*')
         if (!text) continue
         await this.sendMessage(id, { text, mentions: this.parseMention(text) })
     }
@@ -763,13 +763,13 @@ export async function deleteUpdate(message) {
         if (chat.delete)
             return 
             await this.reply(msg.chat, `
-≡ deleted a message 
-┌─⊷  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀 
-▢ *Number :* @${participant.split`@`[0]} 
+≡  💝 Queen Hentai 💝 WA BOT deleted a message.
+┌─⊷ 🇱🇰 𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀 🇱🇰
+🩸 *Number :* @${participant.split`@`[0]} 🩸
 └─────────────
-TO DEACTIVE , PRESS 
-*/off antidelete*
-*.enable delete*
+🩸TO DEACTIVE , PRESS 🩸
+🩸 */off antidelete* 🩸
+🩸 *.enable delete* 🩸
 `.trim(), msg, {
             mentions: [participant]
         })
@@ -781,16 +781,16 @@ TO DEACTIVE , PRESS
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: '*ᴏɴʟʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ* • This command can only be used by the *Creator of the bot*',
-        owner: '*ᴏɴʟʏ ᴏᴡɴᴇʀ* • This command can only be used by the *Bot Owner',
-        mods: '*ᴏɴʟʏ ᴍᴏᴅᴇʀᴀᴛᴏʀ* •This function is only for *For Bot moderators*',
-        premium: '*ᴏɴʟʏ ᴘʀᴇᴍɪᴜᴍ* • This command is for *Premium members only',
-        group: '*ɢʀᴏᴜᴘ ᴄʜᴀᴛ* • This command can only be used in groups',
-        private: '*ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ* • This command can only be used in the *private chat of the Bot*',
-        admin: '*ᴏɴʟʏ ᴀᴅᴍɪɴ* • This command is only for *Group Admins*',
-        botAdmin: '*ᴏɴʟʏ ʙᴏᴛ ᴀᴅᴍɪɴ* • To use this command I must be *Admin!*',
-        unreg: '*ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ʀᴇɢɪsᴛᴇʀᴇᴅ ʏᴇᴛ* •  Sign in to use this feature Typing:\n\n*/reg name.age*\n\n📌Example : */reg GURU.20*', 
-        restrict: '*ʀᴇsᴛʀɪᴄᴛ* • This feature is *disabled*',
+        rowner: '*ᴏɴʟʏ 💝 Queen Hentai 💝 ᴅᴇᴠᴇʟᴏᴘᴇʀ* • 🇱🇰 This command can only be used by the *Creator of 💝 Dinuwa Official²⁰²³ 💝*',
+        owner: '*ᴏɴʟʏ 💝 Queen Hentai 💝 ᴏᴡɴᴇʀ* • 🇱🇰 This command can only be used by the *Bot Owner 💝 Dinuwa Official²⁰²³ 💝',
+        mods: '*ᴏɴʟʏ 💝 Queen Hentai 💝 ᴍᴏᴅᴇʀᴀᴛᴏʀ* •🇱🇰 This function is only for *For 💝 Queen Hentai 💝 Bot moderators*',
+        premium: '*ᴏɴʟʏ 💝 Queen Hentai 💝 ᴘʀᴇᴍɪᴜᴍ User* • 🇱🇰 This command is for *💝 Queen Hentai 💝 Premium members only',
+        group: '*💝 Queen Hentai 💝 ɢʀᴏᴜᴘ ᴄʜᴀᴛ* • 🇱🇰 This command can only be used in 💝 Queen Hentai 💝 groups',
+        private: '*💝 Queen Hentai 💝 ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ* • 🇱🇰 This command can only be used in the *private chat of the 💝 Queen Hentai 💝 Bot*',
+        admin: '*ᴏɴʟʏ 💝 Queen Hentai 💝 ᴀᴅᴍɪɴ* • 🇱🇰 This command is only for *💝 Queen Hentai 💝 Group Admins*',
+        botAdmin: '*ᴏɴʟʏ 💝 Queen Hentai 💝 ʙᴏᴛ ᴀᴅᴍɪɴ* • 🇱🇰 To use this command I must be *💝 Queen Hentai 💝 Admin!*',
+        unreg: '*ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ʀᴇɢɪsᴛᴇʀᴇᴅ with 💝 Queen Hentai 💝* • 🇱🇰 Sign in to 💝 Queen Hentai 💝,use this feature Type කරපන්:\n\n*/reg name.age*\n\n🇱🇰 Example : *.reg DINUWA.17*', 
+        restrict: '*ʀᴇsᴛʀɪᴄᴛby 💝 Queen Hentai 💝 WA BOT* • This feature is *disabled*by 💝 Queen Hentai 💝 WA BOT',
     }[type]
     if (msg) return m.reply(msg)
 }
