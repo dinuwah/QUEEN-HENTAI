@@ -6,8 +6,8 @@ var number = text.split`@`[1]
 }else if(!isNaN(text)) {
 var number = text
 }
-if(!text && !m.quoted) return conn.reply(m.chat, `✳️ Using the command \n *${usedPrefix + command}* @tag`, m)
-if(number.length > 13 || (number.length < 11 && number.length > 0)) return conn.reply(m.chat, `✳️ Number incorrect`, m)
+if(!text && !m.quoted) return conn.reply(m.chat, `Plzz bza Use the following command of 💝 Queen Hentai 💝 \n *${usedPrefix + command}* @tag`, m)
+if(number.length > 13 || (number.length < 11 && number.length > 0)) return conn.reply(m.chat, `😤 That Number incorrect,identify by *💝 Queen Hentai 💝*`, m)
   
 try {
 if(text) {
@@ -20,7 +20,7 @@ var user = number + '@s.whatsapp.net'
 } catch (e) {
 } finally {
 conn.groupParticipantsUpdate(m.chat, [user], 'demote')
-m.reply(`✅ User demoted`)
+m.reply(`🤟 User demoted by 💝 Queen Hentai 💝 User`)
 }
 
 }
