@@ -35,7 +35,7 @@ QUEEN HENTAI Multi Device Whatsapp Bot.
 ---------
 
 ## ``Support Group``
-[![WHATSAPP](https://img.shields.io/badge/Groups%20Panel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S) 
+[![WHATSAPP](https://img.shields.io/badge/Support%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S) 
 ---------
 
 ## ```HEROKU DEPLOYMENT```
