@@ -8,10 +8,11 @@ let handler = async (m) => {
   let media = await q.download()
   let isTele = /image\/(png|jpe?g|gif)|video\/mp4/.test(mime)
   let link = await (isTele ? uploadImage : uploadFile)(media)
-  m.reply(`🔊 ${media.length} Byte(s) 
+  m.reply(`💝 Queen Hentai 💝
+      link convertor
 
-🔊 ${isTele ? '(No expiration date)' : '(Unknown)'} 
-🔊 *URL :* ${link}
+
+🔊 URL : ${link}
   `)
 }
 handler.help = ['tourl']
