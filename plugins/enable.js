@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
 	
 const sections = [
    {
-	title: `≡ List of options`,
+	title: `💝 Queen Hentai 💝`,
 	rows: [
 	{title: "🔮 | Welcome", rowId: `${usedPrefix + command} welcome`},
 	{title: "🌎 | Public", rowId: `${usedPrefix + command} public`},
@@ -27,8 +27,8 @@ const sections = [
 const listMessage = {
   text: '\nHere is a list of what you can turn on and off',
   footer: igfg,
-  title: `≡ List of options`,
-  buttonText: "Click here",
+  title: `💝 Queen Hentai 💝`,
+  buttonText: "💝 Click here 💝",
   sections
 }
 
@@ -189,29 +189,14 @@ const listMessage = {
       
     default:
      if (!/[01]/.test(command)) return m.reply(`
-≡ List of options
-
-┌─⊷ *ADMIN*
-▢ welcome
-▢ antilink
-▢ nsfw
-▢ onlyenglish
-▢ autosticker
-▢ detect
-▢ antidelete
-└───────────── 
-┌─⊷ *USERS*
-▢ autolevelup
-▢ chatbot 
-└─────────────
-┌─⊷ *OWNER*
-▢ public
-▢ onlydm
-▢ grouponly
-└─────────────
-*📌 Example :*
-*${usedPrefix}on* welcome
-*${usedPrefix}off* welcome
+🔊 welcome
+🔊 antilink
+🔊 nsfw
+🔊 onlyenglish
+🔊 autosticker
+🔊 antidelete
+🔊 public
+🔊 onlydm
 `)
       throw false
   }
