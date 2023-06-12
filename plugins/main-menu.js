@@ -33,15 +33,11 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(850) 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-WELCOME  ${name}
-
+❄️WELCOME  ${name}
 
 💝 Uptime : ${uptime}
-
 💝 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${author}
-
 💝 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${botname}
-
 💝 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 - Dinuwa Official²⁰²³
 
 💝 𝙽𝚄𝙼𝙱𝙴𝚁 - 94740804536
@@ -53,28 +49,68 @@ WELCOME  ${name}
 
 This wa bot created by 💝 Dinuwa Official²⁰²³ 💝
 
+ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ᴄᴏᴍᴍᴀɴᴅꜱ
 
-🩸You can deploy your bot   in following platforms.
+│┃🩸.instagram 
+│┃🩸.mediafire 
+│┃🩸.gdrive
+│┃🩸.tiktok  
+│┃🩸.fb
+│┃🩸.ytmp4 
+│┃🩸.ytmp3 
+│┃🩸.ytmp4doc
+│┃🩸.ytmp3doc
 
-💭 Replit 
-💭 Koyeb 
-💭 Mogenius 
-💭 Heroku 
-💭 Coolify 
-💭 Clevercloud
-💭 Termux
+search commands
 
-SPECIAL THANKS T0:
+│┃💭.play 
+│┃💭.play2 
+│┃💭.play3
+│┃💭.spotify
+│┃💭.yts 
+│┃💭.ytsearch
 
-- 💖 | *Dinuwa Official²⁰²³(me)*
-    
-- 💖 | *Abhishek* 
-    
-- 💖 | *MR Nima* 
+convert commands
 
-- 💖 | *DINETHRA*
+│┃🇱🇰.sticker 
+│┃🇱🇰.sticker2
+│┃🇱🇰.s
+│┃🇱🇰.ss
+│┃🇱🇰.sfull
+│┃🇱🇰.url
+│┃🇱🇰.tourl
+│┃🇱🇰.translate
 
-Type .list for get menu of 💝 Queen Hentai 💝 WA Bot`
+maker commands
+
+│┃✔.attp 
+│┃✔.attp2
+│┃✔.attp3
+│┃✔.ttp
+│┃✔.ttp2
+│┃✔.ttp3
+
+owner commands
+
+│┃💰.kick 
+│┃💰.promote 
+│┃💰.demote
+│┃💰.setwelcome
+│┃💰.setgoodbye
+│┃💰.ban
+│┃💰.unban
+
+other commands
+
+│┃🔞.xnxxsearch 
+│┃🔞.xnxx 
+│┃🔞.xnxxdl 
+│┃🔞.xvideosdl
+│┃🔊.ping 
+│┃🔊.runtime
+│┃🔊.infobot
+│┃🔊.script 
+│┃🔊.sc`
     conn.sendFile(m.chat, pp, 'Hentai.jpg', str, m, false, { mentions: [who] })
     m.react(done)
 
