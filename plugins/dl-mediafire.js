@@ -7,7 +7,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isOwner, isPrems }) =
      if((isOwner || isPrems)) limit = 1200
      else limit = 100
    if (!args[0]) throw `✳️ Enter the mediafire link next to the command`
-    if (!args[0].match(/mediafire/gi)) throw `❎ Link incorrect`
+    if (!args[0].match(/mediafire/gi)) throw `💝 Queen Hentai 💝 Rejected that link because it is incorrect link`
     m.react(rwait)
     let full = /f$/i.test(command)
     let u = /https?:\/\//.test(args[0]) ? args[0] : 'https://' + args[0]
@@ -16,13 +16,16 @@ let handler = async (m, { conn, args, usedPrefix, command, isOwner, isPrems }) =
     let { url, url2, filename, ext, aploud, filesize, filesizeH } = res
     let isLimit = (isPrems || isOwner ? limit : limit) * 1012 < filesize
     let caption = `
-   ≡ *MEDIAFIRE*
+   💝 Queen Hentai 💝 
+         MEDIAFIRE
+      DOWNLOADER
+       
 
-▢ *Number:* ${filename}
-▢ *Size:* ${filesizeH}
-▢ *Extension:* ${ext}
-▢ *Uploaded:* ${aploud}
-${isLimit ? `\n▢ The file exceeds the download limit *+${limit} MB*\nUpgrade to premium to be able to download files more than *900 MB*` : ''} 
+🇱🇰 Number: ${filename}
+🇱🇰 Size: ${filesizeH}
+🇱🇰 Extension: ${ext}
+🇱🇰 Uploaded: ${aploud}
+${isLimit ?`\n🥲 The file exceeds the download limit of the *💝 Queen Hentai 💝* server` : ''} 
 `.trim()
     await conn.sendFile(m.chat, ss, 'ssweb.png', caption, m)
     
@@ -32,7 +35,7 @@ ${isLimit ? `\n▢ The file exceeds the download limit *+${limit} MB*\nUpgrade t
 handler.help = ['mediafire <url>']
 handler.tags = ['dl', 'prem']
 handler.command = ['mediafire', 'mfire'] 
-handler.diamond = true
+handler.diamond = false
 handler.premium = false
 
 export default handler
