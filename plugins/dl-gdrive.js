@@ -7,7 +7,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 	try {
 	let res = await fg.GDriveDl(args[0])
 	 await m.reply(`
-≡ *💝 Queen Hentai 💝 Google Drive DOWNLOADER*
+*💝 Queen Hentai 💝 Google Drive DOWNLOADER*
 
 💝 *Number:* ${res.fileName}
 💝 *Size:* ${res.fileSize}
