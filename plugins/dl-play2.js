@@ -3,7 +3,7 @@ import { youtubeSearch } from '@bochilteam/scraper'
 import yts from 'yt-search'
 let handler = async(m, { conn, usedPrefix, text, args, command }) => {
 
-    if (!text) throw `💝 Enter A Song \n\n*💝 Ex;*\n*${usedPrefix + command}* Sudu Nona`
+    if (!text) throw `*💝 Queen Hentai MUSIC 💝* \n\nEnter A Song \n\n*💝 Ex;*\n*${usedPrefix + command}* Sudu Nona`
     m.react('💝')
     let result = await yts(text)
     let ytres = result.all
@@ -14,7 +14,7 @@ let handler = async(m, { conn, usedPrefix, text, args, command }) => {
           ['💝 MP4', `${usedPrefix}fgmp4 ${v.url}`, `▢ 💝 *Duratión:* ${v.timestamp}\n▢ 💝 *Views:* ${v.views}\n▢ 💝 *Títle* : ${v.title}\n▢ 💝 *Publiced:* ${v.ago}\n`]
         ]])
 	})
-	return conn.sendList(m.chat, '  ≡ *💝 Queen Hentai 💝 MUSIC*🔎', `\n 💝 Queen Hentai 💝 of results :\n *${text}*`, igfg, `💝Click💝 `, listSections, m)
+	return conn.sendList(m.chat, ' *💝 Queen Hentai 💝 MUSIC*🔎', `\n 💝 Queen Hentai 💝 of results :\n *${text}*`, igfg, `💝Click💝 `, listSections, m)
 }
 handler.help = ['play2']
 handler.tags = ['dl']
