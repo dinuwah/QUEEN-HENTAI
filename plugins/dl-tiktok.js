@@ -3,7 +3,7 @@ import fg from 'api-dylux'
 import { tiktokdl, tiktokdlv2, tiktokdlv3 } from '@bochilteam/scraper'
 
 let handler = async (m, { conn, text, args, usedPrefix, command}) => {
-if (!args[0]) throw `💝 Queen Hentai 💝, Enter a Tiktok link\n\n 💝 Ex: ${usedPrefix + command} https://vm.tiktok.com/ZMNqyusVD/?k=1`
+if (!args[0]) throw `💝 Queen Hentai 💝, Enter a Tiktok link\n\n 💝 Ex: ${usedPrefix + command} https://vm.tiktok.com/ZSLjV2eoP/`
 if (!args[0].match(/tiktok/gi)) throw `💝 verify that the link is from tiktok 💝 Queen Hentai 💝`
 m.react(rwait)
 
