@@ -100,7 +100,7 @@ SPECIAL THANKS T0:
 
   
 
-▢ Contact : 
+💝 Contact : 
 
   • wa.me:94740804536
 
@@ -112,7 +112,7 @@ SPECIAL THANKS T0:
 
 *💭 FreeRAM:* ${format(freemem())}
 
-*≡  NodeJS memory *
+*💝  *NodeJS memory* 
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
 `
 conn.sendFile(m.chat, pp, 'prefil.jpg', infobt, m, false, { mentions: [who] })
@@ -121,6 +121,6 @@ m.react(done)
 }
 handler.help = ['info']
 handler.tags = ['main']
-handler.command = ['info', 'infobot', 'botinfo']
+handler.command = ['info', 'infobot', 'hentaiinfo']
 
 export default handler
