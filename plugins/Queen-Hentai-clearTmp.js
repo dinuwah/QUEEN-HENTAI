@@ -9,7 +9,7 @@ import {
 
 let handler = async (m, { conn, __dirname, args }) => {
 
-m.reply(`✅ The folder was cleaned *tmp + sessions*`)
+m.reply(`🇱🇰 The folder was cleaned *tmp + sessions*`)
 m.react(done)
 const tmp = [tmpdir(), join(__dirname, '../tmp')]
   const filename = []
