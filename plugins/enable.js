@@ -201,17 +201,17 @@ const listMessage = {
       throw false
   }
   /*conn.sendButton(m.chat, `
-≡ *OPTIONS*
+🇱🇰 *OPTIONS*
 ┌───────────
-▢ 🗂️ *Type:* ${type} 
-▢ ⚙️ *Condition:* ${isEnable ? 'Active ✅' : 'Deactive 🔴'}
-▢ 🏮 *For:* ${isAll ? 'this bot' : isUser ? '' : 'this chat'}
+✔ 🔊 *Type:* ${type} 
+✔ 🔊 *Condition:* ${isEnable ? 'Active 😁' : 'Deactive 🥲'}
+✔ 🔊🤩 *For:* ${isAll ? 'this bot' : isUser ? '' : 'this chat'}
 └───────────
-`,igfg, null, [[`${isEnable ? '🔴 Deactive' : '✅ Active'}`, `${isEnable ? `${usedPrefix}off ${type}` : `${usedPrefix}on ${type}`}`], ['⦙☰ Menu', `${usedPrefix}help`]],m)
+`,igfg, null, [[`${isEnable ? '🥲 Deactive' : '😁 Active'}`, `${isEnable ? `${usedPrefix}off ${type}` : `${usedPrefix}on ${type}`}`], ['⦙☰ Menu', `${usedPrefix}help`]],m)
 */
 
 m.reply(`
-✅ *${type}* Now *${isEnable ? 'Active' : 'Deactive'}* ${isAll ? 'for this bot' : isUser ? '' : 'for this bot'}
+😁 *${type}* ££££ *${isEnable ? '*INSTALL*' : '*UNINSTALL*'}* ${isAll ? 'for *💝 Queen Hentai 💝* bot' : isUser ? '' : 'for *💝 Queen Hentai 💝* bot'}
 `.trim()) 
 
 }
