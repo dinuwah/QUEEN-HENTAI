@@ -20,7 +20,7 @@ let handler = async (m, { conn, usedPrefix, command}) => {
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `The user is not found in 💝 Queen Hentai 💝 database`
-let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './Hentai.jpg')
+let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://i.imgur.com/bFEC7lC.jpeg')
 let user = global.db.data.users[who]
 let { name, exp, diamond, lastclaim, registered, regTime, age, level, role, warn } = global.db.data.users[who]
 let { min, xp, max } = xpRange(user.level, global.multiplier)
@@ -111,7 +111,7 @@ other commands
 │┃🔊.infobot
 │┃🔊.script 
 │┃🔊.sc`
-    conn.sendFile(m.chat, pp, 'Hentai.jpg', str, m, false, { mentions: [who] })
+    conn.sendFile(m.chat, pp, 'https://i.imgur.com/bFEC7lC.jpeg', str, m, false, { mentions: [who] })
     m.react(done)
 
 }
