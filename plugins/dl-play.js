@@ -64,7 +64,7 @@ thumbnail: await(await conn.getFile(thumbnail)).data
 }
 handler.help = ['play'].map(v => v + ' <query>')
 handler.tags = ['downloader']
-handler.command = /^play$/i
+handler.command = /^(play|song)$/i
 
 handler.exp = 0
 handler.diamond = false
