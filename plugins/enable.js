@@ -205,7 +205,7 @@ const listMessage = {
 ┌───────────
 ✔ 🔊 *Type:* ${type} 
 ✔ 🔊 *Condition:* ${isEnable ? 'Active 😁' : 'Deactive 🥲'}
-✔ 🔊🤩 *For:* ${isAll ? 'this bot' : isUser ? '' : 'this chat'}
+✔ 🔊 *For:* ${isAll ? 'this bot' : isUser ? '' : 'this chat'}
 └───────────
 `,igfg, null, [[`${isEnable ? '🥲 Deactive' : '😁 Active'}`, `${isEnable ? `${usedPrefix}off ${type}` : `${usedPrefix}on ${type}`}`], ['⦙☰ Menu', `${usedPrefix}help`]],m)
 */
