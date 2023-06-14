@@ -17,12 +17,19 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
 		
        if (size.split('MB')[0] >= limit) return m.reply(`*💝 Queen Hentai 💝 YTDL*\n\n▢ *💝Size* : ${size}\n▢ *💝quality* : ${q}\n\n▢ _Exceeds the download limit From 💝 Queen Hentai 💝_ *+${limit} MB*`)    
 	  conn.sendFile(m.chat, dl_url, title + '.mp4', `
-*💝 Queen Hentai 💝 YTDL*
+*💝 Queen Hentai 💝* 
+
+      *YT DOWNLOADER*
+
   
-▢ *💝Títle* : ${title}
-▢ *💝Out* : mp4
-▢ *💝Quality* : ${q}
-▢ *💝Size* : ${size}
+
+ *💝  *Títle* : ${title}
+
+ *💝  *Out* : mp4
+
+ *💝  *Quality* : ${q}
+
+ *💝  *Size* : ${size}
 `.trim(), m, false, { asDocument: chat.useDocument })
 		m.react(done) 
 		
@@ -31,11 +38,19 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
 		const { title, result, quality, size, duration, thumb, channel } = await fg.ytv(args[0]) 
 		if (size.split('MB')[0] >= limit) return m.reply(`*💝 Queen Hentai 💝 YTDL2*\n\n▢ *💝Size* : ${size}\n▢ *💝Quality* : ${quality}\n\n▢ _Exceeds the download limit From 💝 Queen Hentai 💝_ *+${limit} MB*`)
 	conn.sendFile(m.chat, result, title + '.mp4', `
-*💝 Queen Hentai 💝 YTDL2*
+*💝 Queen Hentai 💝* 
+
+      *YT DOWNLOADER*
+
   
-▢ *💝Títle* : ${title}
-▢ *💝Out* : mp4
-▢ *💝size* : ${size}
+
+ *💝  *Títle* : ${title}
+
+ *💝  *Out* : mp4
+
+ *💝  *Quality* : ${q}
+
+ *💝  *Size* : ${size}
 `.trim(), m, false, { asDocument: chat.useDocument })
 		m.react(done) 
 	} 
