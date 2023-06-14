@@ -8,7 +8,7 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
   let vid = search.videos[Math.floor(Math.random() * search.videos.length)]
   if (!search) throw 'Video Not Found, Try Another Title'
   let { title, thumbnail, timestamp, views, ago, url } = vid
-  let wm = 'Downloading Audio Please Wait'
+  let wm = '*💝 Queen Hentai 💝* WA BOT'
 
   let captvid = `╭────  💝 Queen Hentai 💝 YT ─⬣
 💝 Title: ${title}
@@ -30,7 +30,7 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
 'pageCount': 666,contextInfo: { externalAdReply: { showAdAttribution: true,
 mediaType:  2,
 mediaUrl: `${url}`,
-title: `AUDIO IS Uploading by 💝 Queen Hentai 💝...`,
+title: `Song Is Uploading by 💝 Queen Hentai 💝...`,
 body: wm,
 sourceUrl: '💝 Queen Hentai 💝', thumbnail: await ( await conn.getFile(thumbnail)).data
   }
