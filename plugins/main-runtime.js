@@ -10,7 +10,15 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
       }) * 1000
     }
     let muptime = clockString(_muptime)
-   m.reply(`🇱🇰*💝 Queen Hentai 💝 Bot RUNTIME*  \n\n${muptime}  \n\nCreated By 💝 Dinuwa Official²⁰²³ 💝`) 
+   m.reply(`QUEEN  HENTAI WA BOT
+          ACTIVE TIME  
+
+${muptime} 
+
+Created By  Dinuwa
+                    Official²⁰²³
+
+🔊  https://github.com/dinuwah/QUEEN-HENTAI`) 
 }
 handler.help = ['runtime']
 handler.tags = ['main']
