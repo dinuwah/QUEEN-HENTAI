@@ -7,8 +7,8 @@ const { levelling } = '../lib/levelling.js'
 import moment from 'moment-timezone'
 import { promises } from 'fs'
 import { join } from 'path'
-const time = moment.tz('Asia/Colombo').format('HH')
-let wib = moment.tz('Asia/Colombo').format('HH:mm:ss')
+const time = moment.tz('Asia/Kolkata').format('HH')
+let wib = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 //import db from '../lib/database.js'
 
 let handler = async (m, { conn, usedPrefix, command}) => {
@@ -19,8 +19,8 @@ let handler = async (m, { conn, usedPrefix, command}) => {
     let _uptime = process.uptime() * 1000
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-if (!(who in global.db.data.users)) throw `The user is not found in 💝 Queen Hentai 💝 database`
-let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://i.imgur.com/bFEC7lC.jpeg')
+if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
+let pp = './Hentai.jpg'
 let user = global.db.data.users[who]
 let { name, exp, diamond, lastclaim, registered, regTime, age, level, role, warn } = global.db.data.users[who]
 let { min, xp, max } = xpRange(user.level, global.multiplier)
@@ -28,12 +28,13 @@ let username = conn.getName(who)
 let math = max - xp
 let prem = global.prems.includes(who.split`@`[0])
 let sn = createHash('md5').update(who).digest('hex')
+let totaluser = Object.values(global.db.data.users).length 
 let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length 
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850) 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-❄️WELCOME  ${name}
+👋WELCOME  ${name}
 
 💝 Uptime : ${uptime}
 💝 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${author}
@@ -56,10 +57,11 @@ This wa bot created by 💝 Dinuwa Official²⁰²³ 💝
 │┃🩸.gdrive
 │┃🩸.tiktok  
 │┃🩸.fb
-│┃🩸.ytmp4 
+│┃🩸.gimage
 │┃🩸.ytmp3 
 │┃🩸.ytmp4doc
 │┃🩸.ytmp3doc
+│┃🩸.pinterest
 
 search commands
 
@@ -80,6 +82,8 @@ convert commands
 │┃🇱🇰.url
 │┃🇱🇰.tourl
 │┃🇱🇰.translate
+│┃🇱🇰.toimg
+│┃🇱🇰.tovid
 
 maker commands
 
@@ -93,12 +97,19 @@ maker commands
 owner commands
 
 │┃💰.kick 
+│┃💰.add
 │┃💰.promote 
 │┃💰.demote
 │┃💰.setwelcome
-│┃💰.setgoodbye
+│┃💰.setbye
 │┃💰.ban
 │┃💰.unban
+│┃💰.enable 
+│┃💰.disable 
+│┃💰.link
+│┃💰.tagall
+│┃💰.hentairestart
+│┃💰.update 
 
 other commands
 
@@ -108,16 +119,20 @@ other commands
 │┃🔞.xvideosdl
 │┃🔊.ping 
 │┃🔊.runtime
-│┃🔊.infobot
+│┃🔊.hentaiinfo
 │┃🔊.script 
-│┃🔊.sc`
-    conn.sendFile(m.chat, pp, 'https://i.imgur.com/bFEC7lC.jpeg', str, m, false, { mentions: [who] })
+│┃🔊.sc
+│┃🔊.qhw
+│┃🔊.dinuserial
+│┃🔊.unhentai
+`
+    conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, false, { mentions: [who] })
     m.react(done)
 
 }
 handler.help = ['main']
 handler.tags = ['group']
-handler.command = ['menu', 'help','h','command'] 
+handler.command = ['menu', 'help','bothentai','bot'] 
 
 export default handler
 function clockString(ms) {
@@ -127,7 +142,7 @@ function clockString(ms) {
     return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
     
     function ucapan() {
-      const time = moment.tz('Asia/Colombo').format('HH')
+      const time = moment.tz('Asia/Kolkata').format('HH')
       let res = "happy early in the day☀️"
       if (time >= 4) {
         res = "Good Morning 🌄"
