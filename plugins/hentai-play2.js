@@ -10,8 +10,8 @@ let handler = async(m, { conn, usedPrefix, text, args, command }) => {
     let listSections = []
 	Object.values(ytres).map((v, index) => {
 	listSections.push([`${index}┃ ${v.title}`, [
-          ['💝 MP3', `${usedPrefix}fgmp3 ${v.url}`, `▢ 💝 *Duration:* ${v.timestamp}\n▢ 💝 *Views:* ${v.views}\n▢ 💝 *Títle* : ${v.title}\n▢ 💝 *Publiced:* ${v.ago}\n`],
-          ['💝 MP4', `${usedPrefix}fgmp4 ${v.url}`, `▢ 💝 *Duratión:* ${v.timestamp}\n▢ 💝 *Views:* ${v.views}\n▢ 💝 *Títle* : ${v.title}\n▢ 💝 *Publiced:* ${v.ago}\n`]
+          ['💝 MP3', `${usedPrefix}fgmp3 ${v.url}`, `💝   *Duration:* ${v.timestamp}\n💝   *Views:* ${v.views}\n💝   *Títle* : ${v.title}\n💝   *Publised:* ${v.ago}\n`],
+          ['💝 MP4', `${usedPrefix}fgmp4 ${v.url}`, `💝   *Duratión:* ${v.timestamp}\n💝   *Views:* ${v.views}\n💝   *Títle* : ${v.title}\n💝   *Publised:* ${v.ago}\n`]
         ]])
 	})
 	return conn.sendList(m.chat, ' *💝 Queen Hentai 💝 MUSIC*🔎', `\n 💝 Queen Hentai 💝 of results :\n *${text}*`, igfg, `💝Click💝 `, listSections, m)
