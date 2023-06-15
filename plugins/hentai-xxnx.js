@@ -6,7 +6,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
  let chat = global.db.data.chats[m.chat]
   if (!chat.nsfw) throw `💝 Queen Hentai 💝 this group doesnot support nsfw \n\nto turn on  \n*${usedPrefix}enable* nsfw`
   let user = global.db.data.users[m.sender].age
-  if (user < 17) throw `💝 Queen Hentai 💝 age must be 18 to use this feature`
+  if (user < 17) throw `💝 Queen Hentai 💝 age must be 18 to use this feature , Therefore type .qhw`
   if (!text) throw `💝 Queen Hentai 💝 what to search?\n🤤 Type : *${usedPrefix + command} <search>*\n\nExample:- Mia කලීපා 😂\nEx: .xnxx link *`
     
     m.react(rwait)
