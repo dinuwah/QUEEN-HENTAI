@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 	
 	if (!global.db.data.chats[m.chat].nsfw) throw `🇱🇰 This group doesnt support 18+ adult xxx(පොඩි එවුන්ට බෑ බන් 😁)\n\n If you enable 💝 Queen Hentai 💝 it by \n*${usedPrefix}enable* nsfw`
     let user = global.db.data.users[m.sender].age
-    if (user < 17) throw m.reply(`🇱🇰 uneed to be atleast 18 years(පොඩි එවුන්ට බෑ බන් 😁)`) 
+    if (user < 17) throw m.reply(`🇱🇰 You need to be atleast 18 years(පොඩි එවුන්ට බෑ බන් 😁)`) 
    
 m.react(rwait)
 let type = (command).toLowerCase()
