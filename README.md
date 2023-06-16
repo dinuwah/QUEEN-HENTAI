@@ -19,7 +19,7 @@ QUEEN HENTAI Multi Device Whatsapp Bot.
 
 
 
-1. 🇱🇰 Fork The Repo 🇱🇰
+1. 🇱🇰 Fork Queen Hentai Git 🇱🇰
     <br>
 <a href='https://github.com/dinuwah/QUEEN-HENTAI' target="_blank"><img alt='💝Fork Repo💝' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=red'/></a>
 
