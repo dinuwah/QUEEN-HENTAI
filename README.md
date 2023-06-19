@@ -1,5 +1,5 @@
 # 💝 QUEEN HENTAI 💝
-<div align="center">
+
 # QUEEN-HENTAI Multi Device Whatsapp Bot Coded By 💝Dinuwa Official💝
   
 <p align="center">  
