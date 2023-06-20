@@ -1,1 +1,168 @@
-const _0x446577=_0x4616;(function(_0x5c619b,_0x308d35){const _0x1e9400=_0x4616,_0x65a1a7=_0x5c619b();while(!![]){try{const _0x195fdb=parseInt(_0x1e9400(0x1b1))/0x1+parseInt(_0x1e9400(0x1a3))/0x2*(-parseInt(_0x1e9400(0x1bd))/0x3)+-parseInt(_0x1e9400(0x1c3))/0x4+-parseInt(_0x1e9400(0x1a8))/0x5*(-parseInt(_0x1e9400(0x197))/0x6)+-parseInt(_0x1e9400(0x1c2))/0x7*(-parseInt(_0x1e9400(0x1c6))/0x8)+parseInt(_0x1e9400(0x19f))/0x9*(-parseInt(_0x1e9400(0x1ae))/0xa)+parseInt(_0x1e9400(0x1be))/0xb;if(_0x195fdb===_0x308d35)break;else _0x65a1a7['push'](_0x65a1a7['shift']());}catch(_0x47a286){_0x65a1a7['push'](_0x65a1a7['shift']());}}}(_0x3d44,0x7a5a1));import{createHash}from'crypto';import _0x29e0f1 from'awesome-phonenumber';import{canLevelUp,xpRange}from'../lib/levelling.js';import _0x1bbb21 from'node-fetch';import _0x427bd6 from'fs';const {levelling}=_0x446577(0x1ba);import _0x126008 from'moment-timezone';import{promises}from'fs';import{join}from'path';function _0x3d44(){const _0x295e23=['long','51890LDnZRU','fromCharCode','\x0a\x0a│🔮\x20*Uptime*\x20:\x20','908952GqUJIq','repeat','toString','padStart','mentionedJid','map','hex','users','format','../lib/levelling.js','command','values','3uHDOEp','15011282isQRHK','level','join','Good\x20Morning\x20🌄','56qTyeCu','1674700MOSlSl','floor','\x0a│🔮\x20𝗢𝘄𝗻𝗲𝗿\x20𝗡𝗮𝗺𝗲\x20:\x20','21848APKzOE','\x0a┌┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈▷\x0a│👋WELCOME\x20\x20','\x0a│🔮\x20𝗕𝗼𝘁\x20𝗡𝗮𝗺𝗲\x20:\x20','toLocaleDateString','prems','getName','filter','uptime','HH:mm:ss','update','quoted','user','sendFile','length','@s.whatsapp.net','996yYwfNV','registered','digest','catch','md5','numeric','./Hentai.jpg','react','1629MxXFvh','Asia/Kolkata','split','fromMe','1346282hiChpB','data','jid','\x0a│🔮\x20𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿\x20-\x20Dinuwa\x20\x20\x20\x0a│\x20\x20\x20Official²⁰²³\x0a│\x0a│🔮\x20𝙽𝚄𝙼𝙱𝙴𝚁\x20-\x2094740804536\x0a│\x0a└─┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈▷\x0a\x0a┌┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈▷\x0a🇱🇰\x20:\x20*Queen\x20Hentai\x20𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿\x20𝙱𝙾𝚃\x20ɴᴏᴡ\x20ᴀᴠᴀɪʟᴀʙʟᴇ\x20ᴏɴ\x20COOLIFY\x20ᴅᴇᴩʟᴏY\x20ɴᴏᴡ.*\x0a└┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈▷\x0a┌┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈▷\x0a*This\x20wa\x20bot\x20created\x20by\x20💝\x20Dinuwa\x20Official²⁰²³\x20💝*\x0a└┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈▷\x0a◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊\x0a🔮*ᴅᴏᴡɴʟᴏᴀᴅᴇʀ\x20ᴄᴏᴍᴍᴀɴᴅꜱ*🔮\x0a◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊\x0a╭╌═══════════════╌◈\x0a│┃🩸.instagram\x20\x0a│┃🩸.mediafire\x20\x0a│┃🩸.gdrive\x0a│┃🩸.tiktok\x20\x20\x0a│┃🩸.fb\x0a│┃🩸.gimage\x0a│┃🩸.ytmp3\x20\x0a│┃🩸.ytmp4doc\x0a│┃🩸.ytmp3doc\x0a│┃🩸.pinterest\x0a╰╌═══════════════╌◈\x0a◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊\x0a🔮*ꜱᴇᴀʀᴄʜ\x20ᴄᴏᴍᴍᴀɴᴅꜱ*🔮\x0a◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊\x0a╭╌═══════════════╌◈\x0a│┃💭.play\x20\x0a│┃💭.play2\x20\x0a│┃💭.play3\x0a│┃💭.spotify\x0a│┃💭.yts\x20\x0a│┃💭.ytsearch\x0a╰╌═══════════════╌◈\x0a◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊\x0a🔮*ᴄᴏɴᴠᴇʀᴛ\x20ᴄᴏᴍᴍᴀɴᴅꜱ*🔮\x0a◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊\x0a╭╌═══════════════╌◈\x0a│┃🇱🇰.sticker\x20\x0a│┃🇱🇰.sticker2\x0a│┃🇱🇰.s\x0a│┃🇱🇰.ss\x0a│┃🇱🇰.sfull\x0a│┃🇱🇰.url\x0a│┃🇱🇰.tourl\x0a│┃🇱🇰.translate\x0a│┃🇱🇰.toimg\x0a│┃🇱🇰.tovid\x0a╰╌══════════\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🔮*maker\x20commands*🔮\x0a◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20╭╌═══════════════╌◈\x20\x20\x20\x20\x20\x20\x20\x0a│┃✔.attp\x20\x0a│┃✔.attp2\x0a│┃✔.attp3\x0a│┃✔.ttp\x0a│┃✔.ttp2\x0a│┃✔.ttp3\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20╰╌══════════\x20\x0a◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊\x0a🔮*owner\x20commands*🔮\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊\x0a╭╌═══════════════╌◈\x0a│┃💰.kick\x20\x0a│┃💰.add\x0a│┃💰.promote\x20\x0a│┃💰.demote\x0a│┃💰.setwelcome\x0a│┃💰.setbye\x0a│┃💰.ban\x0a│┃💰.unban\x0a│┃💰.enable\x20\x0a│┃💰.disable\x20\x0a│┃💰.link\x0a│┃💰.tagall\x0a│┃💰.hentairestart\x0a│┃💰.update\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20╰╌══════════\x20\x0a◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊\x0a🔮*other\x20commands*🔮\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊\x0a╭╌═══════════════╌◈\x0a│┃🔞.xnxxsearch\x20\x0a│┃🔞.xnxx\x20\x0a│┃🔞.xnxxdl\x20\x0a│┃🔞.xvideosdl\x0a│┃🔊.ping\x20\x0a│┃🔊.runtime\x0a│┃🔊.hentaiinfo\x0a│┃🔊.script\x20\x0a│┃🔊.sc\x0a│┃🔊.qhw\x0a│┃🔊.dinuserial\x0a│┃🔊.unhentai\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20╰╌══════════','Good\x20Afternoon\x20☀️','7130YaWJio','group','Good\x20Afternoon\x20🌇','help','sender'];_0x3d44=function(){return _0x295e23;};return _0x3d44();}function _0x4616(_0x5a7ffa,_0x1773bd){const _0x3d44d9=_0x3d44();return _0x4616=function(_0x461656,_0x55c0d3){_0x461656=_0x461656-0x18c;let _0x5afd0b=_0x3d44d9[_0x461656];return _0x5afd0b;},_0x4616(_0x5a7ffa,_0x1773bd);}const time=_0x126008['tz']('Asia/Kolkata')[_0x446577(0x1b9)]('HH');let wib=_0x126008['tz'](_0x446577(0x1a0))[_0x446577(0x1b9)](_0x446577(0x190)),handler=async(_0x22221f,{conn:_0x5aa25d,usedPrefix:_0x401544,command:_0x54ceaa})=>{const _0xbdd806=_0x446577;let _0x508aac=new Date(new Date()+0x36ee80),_0x5907a1='en',_0x33bc9d=_0x508aac['toLocaleDateString'](_0x5907a1,{'weekday':_0xbdd806(0x1ad)}),_0x207955=_0x508aac[_0xbdd806(0x1c9)](_0x5907a1,{'day':_0xbdd806(0x19c),'month':_0xbdd806(0x1ad),'year':_0xbdd806(0x19c)}),_0x19e28f=process[_0xbdd806(0x18f)]()*0x3e8,_0x3dd5f8=clockString(_0x19e28f),_0x333043=_0x22221f[_0xbdd806(0x192)]?_0x22221f['quoted'][_0xbdd806(0x1ac)]:_0x22221f[_0xbdd806(0x1b5)]&&_0x22221f[_0xbdd806(0x1b5)][0x0]?_0x22221f[_0xbdd806(0x1b5)][0x0]:_0x22221f[_0xbdd806(0x1a2)]?_0x5aa25d[_0xbdd806(0x193)][_0xbdd806(0x1a5)]:_0x22221f[_0xbdd806(0x1ac)];if(!(_0x333043 in global['db'][_0xbdd806(0x1a4)][_0xbdd806(0x1b8)]))throw'🇱🇰The\x20user\x20is\x20not\x20found\x20in\x20my\x20database🇱🇰';let _0x5c12e3=await _0x5aa25d['profilePictureUrl'](_0x333043,'image')[_0xbdd806(0x19a)](_0x3a0e91=>_0xbdd806(0x19d)),_0x22b911=global['db'][_0xbdd806(0x1a4)][_0xbdd806(0x1b8)][_0x333043],{name:_0x1fadc4,exp:_0xd7cb6b,diamond:_0x2d8f84,lastclaim:_0x4579c5,registered:_0x34dd30,regTime:_0x512e06,age:_0x531f9b,level:_0x5c7db1,role:_0x8c03cf,warn:_0x26844f}=global['db'][_0xbdd806(0x1a4)][_0xbdd806(0x1b8)][_0x333043],{min:_0x3f94c5,xp:_0x1dad81,max:_0x121ebb}=xpRange(_0x22b911[_0xbdd806(0x1bf)],global['multiplier']),_0x28b71f=_0x5aa25d[_0xbdd806(0x18d)](_0x333043),_0x581729=_0x121ebb-_0x1dad81,_0x241994=global[_0xbdd806(0x18c)]['includes'](_0x333043['split']`@`[0x0]),_0x346e09=createHash(_0xbdd806(0x19b))[_0xbdd806(0x191)](_0x333043)[_0xbdd806(0x199)](_0xbdd806(0x1b7)),_0x2f2598=Object[_0xbdd806(0x1bc)](global['db'][_0xbdd806(0x1a4)][_0xbdd806(0x1b8)])[_0xbdd806(0x18e)](_0x5ee2b6=>_0x5ee2b6[_0xbdd806(0x198)]==!![])[_0xbdd806(0x195)],_0x354fd6=String[_0xbdd806(0x1af)](0x200e),_0x361436=_0x354fd6[_0xbdd806(0x1b2)](0x352),_0x178743='@'+_0x22221f[_0xbdd806(0x1ac)][_0xbdd806(0x1a1)](_0xbdd806(0x196))[0x0],_0x1c1e53=_0xbdd806(0x1c7)+_0x1fadc4+_0xbdd806(0x1b0)+_0x3dd5f8+_0xbdd806(0x1c5)+author+_0xbdd806(0x1c8)+botname+_0xbdd806(0x1a6);_0x5aa25d[_0xbdd806(0x194)](_0x22221f['chat'],_0x5c12e3,'perfil.jpg',_0x1c1e53,_0x22221f,![],{'mentions':[_0x333043]}),_0x22221f[_0xbdd806(0x19e)](done);};handler[_0x446577(0x1ab)]=['main'],handler['tags']=[_0x446577(0x1a9)],handler[_0x446577(0x1bb)]=['menu',_0x446577(0x1ab),'h',_0x446577(0x1bb)];export default handler;function clockString(_0x551701){const _0x4798ae=_0x446577;let _0x4257e2=isNaN(_0x551701)?'--':Math[_0x4798ae(0x1c4)](_0x551701/0x36ee80),_0x23b8e2=isNaN(_0x551701)?'--':Math['floor'](_0x551701/0xea60)%0x3c,_0x17f347=isNaN(_0x551701)?'--':Math[_0x4798ae(0x1c4)](_0x551701/0x3e8)%0x3c;return[_0x4257e2,_0x23b8e2,_0x17f347][_0x4798ae(0x1b6)](_0x399328=>_0x399328[_0x4798ae(0x1b3)]()[_0x4798ae(0x1b4)](0x2,0x0))[_0x4798ae(0x1c0)](':');}function ucapan(){const _0x4b5ad9=_0x446577,_0xaa5e25=_0x126008['tz'](_0x4b5ad9(0x1a0))[_0x4b5ad9(0x1b9)]('HH');let _0xe8033a='happy\x20early\x20in\x20the\x20day☀️';return _0xaa5e25>=0x4&&(_0xe8033a=_0x4b5ad9(0x1c1)),_0xaa5e25>=0xa&&(_0xe8033a=_0x4b5ad9(0x1a7)),_0xaa5e25>=0xf&&(_0xe8033a=_0x4b5ad9(0x1aa)),_0xaa5e25>=0x12&&(_0xe8033a='Good\x20Night\x20🌙'),_0xe8033a;}
+import { createHash } from 'crypto'
+import PhoneNumber from 'awesome-phonenumber'
+import { canLevelUp, xpRange } from '../lib/levelling.js'
+import fetch from 'node-fetch'
+import fs from 'fs'
+const { levelling } = '../lib/levelling.js'
+import moment from 'moment-timezone'
+import { promises } from 'fs'
+import { join } from 'path'
+const time = moment.tz('Asia/Kolkata').format('HH')
+let wib = moment.tz('Asia/Kolkata').format('HH:mm:ss')
+//import db from '../lib/database.js'
+
+let handler = async (m, { conn, usedPrefix, command}) => {
+    let d = new Date(new Date + 3600000)
+    let locale = 'en'
+    let week = d.toLocaleDateString(locale, { weekday: 'long' })
+    let date = d.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' })
+    let _uptime = process.uptime() * 1000
+    let uptime = clockString(_uptime)
+let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+if (!(who in global.db.data.users)) throw `The user is not found in my database`
+let pp = './Hentai.jpg'
+let user = global.db.data.users[who]
+let { name, exp, diamond, lastclaim, registered, regTime, age, level, role, warn } = global.db.data.users[who]
+let { min, xp, max } = xpRange(user.level, global.multiplier)
+let username = conn.getName(who)
+let math = max - xp
+let prem = global.prems.includes(who.split`@`[0])
+let sn = createHash('md5').update(who).digest('hex')
+let totaluser = Object.values(global.db.data.users).length 
+let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length 
+let more = String.fromCharCode(8206)
+let readMore = more.repeat(850) 
+let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
+let str = `
+┌┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈▷
+│👋WELCOME  ${name}
+
+│🔮 Uptime : ${uptime}
+│🔮 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${author}
+│🔮 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${botname}
+│🔮 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 - Dinuwa   
+│   Official²⁰²³
+│
+│🔮 𝙽𝚄𝙼𝙱𝙴𝚁 - 94740804536
+│
+└─┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈▷
+
+┌┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈▷
+🇱🇰 : Queen Hentai 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙱𝙾𝚃 ɴᴏᴡ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ COOLIFY ᴅᴇᴩʟᴏY ɴᴏᴡ.
+└┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈▷
+┌┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈▷
+This wa bot created by 💝 Dinuwa Official²⁰²³ 💝
+└┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈▷
+◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊
+🔮ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ᴄᴏᴍᴍᴀɴᴅꜱ🔮
+◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊
+╭╌═══════════════╌◈
+│┃🩸.instagram 
+│┃🩸.mediafire 
+│┃🩸.gdrive
+│┃🩸.tiktok  
+│┃🩸.fb
+│┃🩸.gimage
+│┃🩸.ytmp3 
+│┃🩸.ytmp4doc
+│┃🩸.ytmp3doc
+│┃🩸.pinterest
+╰╌═══════════════╌◈
+◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊
+🔮ꜱᴇᴀʀᴄʜ ᴄᴏᴍᴍᴀɴᴅꜱ🔮
+◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊
+╭╌═══════════════╌◈
+│┃💭.play 
+│┃💭.play2 
+│┃💭.play3
+│┃💭.spotify
+│┃💭.yts 
+│┃💭.ytsearch
+╰╌═══════════════╌◈
+◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊
+🔮ᴄᴏɴᴠᴇʀᴛ ᴄᴏᴍᴍᴀɴᴅꜱ🔮
+◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊
+╭╌═══════════════╌◈
+│┃🇱🇰.sticker 
+│┃🇱🇰.sticker2
+│┃🇱🇰.s
+│┃🇱🇰.ss
+│┃🇱🇰.sfull
+│┃🇱🇰.url
+│┃🇱🇰.tourl
+│┃🇱🇰.translate
+│┃🇱🇰.toimg
+│┃🇱🇰.tovid
+╰╌══════════                                                           ◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊                                                       🔮maker commands🔮
+◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊                        ╭╌═══════════════╌◈       
+│┃✔.attp 
+│┃✔.attp2
+│┃✔.attp3
+│┃✔.ttp
+│┃✔.ttp2
+│┃✔.ttp3                                                                                                           ╰╌══════════ 
+◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊
+🔮owner commands🔮                                                                      ◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊
+╭╌═══════════════╌◈
+│┃💰.kick 
+│┃💰.add
+│┃💰.promote 
+│┃💰.demote
+│┃💰.setwelcome
+│┃💰.setbye
+│┃💰.ban
+│┃💰.unban
+│┃💰.enable 
+│┃💰.disable 
+│┃💰.link
+│┃💰.tagall
+│┃💰.hentairestart
+│┃💰.update                                                                                                                        ╰╌══════════ 
+◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊
+🔮other commands🔮                                                                           ◊╳╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╳◊
+╭╌═══════════════╌◈
+│┃🔞.xnxxsearch 
+│┃🔞.xnxx 
+│┃🔞.xnxxdl 
+│┃🔞.xvideosdl
+│┃🔊.ping 
+│┃🔊.runtime
+│┃🔊.hentaiinfo
+│┃🔊.script 
+│┃🔊.sc
+│┃🔊.qhw
+│┃🔊.dinuserial
+│┃🔊.unhentai                                                                                                                                                                    ╰╌══════════
+`
+    conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, false, { mentions: [who] })
+    m.react(done)
+
+}
+handler.help = ['main']
+handler.tags = ['group']
+handler.command = ['menu', 'queen','dinuwa','h'] 
+
+export default handler
+function clockString(ms) {
+    let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
+    let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
+    let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
+    return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
+    
+    function ucapan() {
+      const time = moment.tz('Asia/Kolkata').format('HH')
+      let res = "happy early in the day☀️"
+      if (time >= 4) {
+        res = "Good Morning 🌄"
+      }
+      if (time >= 10) {
+        res = "Good Afternoon ☀️"
+      }
+      if (time >= 15) {
+        res = "Good Afternoon 🌇"
+      }
+      if (time >= 18) {
+        res = "Good Night 🌙"
+      }
+      return res
+    }
