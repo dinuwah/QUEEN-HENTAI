@@ -1,1 +1,87 @@
-const _0x34b556=_0x1c90;(function(_0x173d3b,_0x68a9af){const _0xc4cc8=_0x1c90,_0x405b29=_0x173d3b();while(!![]){try{const _0x59625a=parseInt(_0xc4cc8(0xb7))/0x1*(parseInt(_0xc4cc8(0xb5))/0x2)+-parseInt(_0xc4cc8(0xac))/0x3*(-parseInt(_0xc4cc8(0xaf))/0x4)+parseInt(_0xc4cc8(0xbd))/0x5*(parseInt(_0xc4cc8(0xb1))/0x6)+-parseInt(_0xc4cc8(0xae))/0x7*(-parseInt(_0xc4cc8(0xbb))/0x8)+-parseInt(_0xc4cc8(0xb9))/0x9*(-parseInt(_0xc4cc8(0xb0))/0xa)+parseInt(_0xc4cc8(0xad))/0xb+parseInt(_0xc4cc8(0xbc))/0xc*(-parseInt(_0xc4cc8(0xb2))/0xd);if(_0x59625a===_0x68a9af)break;else _0x405b29['push'](_0x405b29['shift']());}catch(_0x167c76){_0x405b29['push'](_0x405b29['shift']());}}}(_0x5876,0x8e54c));let handler=async(_0x1c5b6a,{conn:_0x3f7ba9,usedPrefix:_0x2eda89,usedPrefix:_0x44504c,__dirname:_0x423b8d,text:_0x58607b,isPrems:_0x5f4971})=>_0x1c5b6a['reply']((_0x34b556(0xb8)+name+_0x34b556(0xb3)+uptime+'*\x0a│➭\x20🧿\x20*Server\x20:\x20SLT*\x0a│➭\x20🚉\x20*Platform\x20:\x20Linux*\x0a│➭\x20🖊️\x20*Prefix\x20:\x20{\x20.\x20}*\x0a│➭\x20⚙️\x20*MOD\x20:\x20Public*\x0a╰────────────────◆\x0a\x0a🔮\x20*Type\x20.menu\x20For\x20My\x20command\x20List.*\x20\x0a\x0a\x20\x20*✰\x20\x20💝\x20Queen\x20Hentai\x20💝\x20ᴡʜᴀᴛꜱᴀᴘᴘ\x20ʙᴏᴛ\x20✰*\x0a')[_0x34b556(0xbf)]());function _0x1c90(_0x15b612,_0x372b19){const _0x58760c=_0x5876();return _0x1c90=function(_0x1c909b,_0x23b065){_0x1c909b=_0x1c909b-0xac;let _0x3486c1=_0x58760c[_0x1c909b];return _0x3486c1;},_0x1c90(_0x15b612,_0x372b19);}handler['help']=[_0x34b556(0xba)],handler[_0x34b556(0xb4)]=['main'],handler['command']=[_0x34b556(0xb6),_0x34b556(0xbe)];export default handler;function _0x5876(){const _0x1e3ff0=['1498972zDEeal','10xTCqKX','3342486GwvCSa','13udYjvJ','\x0a\x0a╭───────────────◆\x0a│➭\x20🤖\x20*Bot\x20Name\x20:\x20Quᴇᴇɴ\x20ʜᴇɴᴛᴀɪ👑*\x0a│➭\x20👨‍💻\x20*𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲\x20By\x20:\x20Dinuwa\x20Official²⁰²³\x20💝*\x0a│➭\x20📱\x20*Owner\x20Number\x20:\x2094740804536*\x0a│➭\x20⏰\x20*Uptime\x20:\x20','tags','230XuIPpl','alive','8751kOKdvV','\x0a💝𝗛𝗲𝘆\x20𝗧𝗵𝗲𝗿𝗲\x20*QUEEN*\x20𝗛𝗘𝗡𝗧𝗔𝗜\x20𝗕𝗼𝘁\x20𝗢𝗻𝗹𝗶𝗻𝗲\x20𝗡𝗼𝘄\x20⭕\x0a\x0a*🌀Hello*\x20','272547xHMXZb','allmenu','205976OzJNhx','33091080lclDMZ','10GQmmPs','dinu','trim','6kCICXi','2294149LMieQN','63IapjXp'];_0x5876=function(){return _0x1e3ff0;};return _0x5876();}
+import { createHash } from 'crypto'
+import PhoneNumber from 'awesome-phonenumber'
+import { canLevelUp, xpRange } from '../lib/levelling.js'
+import fetch from 'node-fetch'
+import fs from 'fs'
+const { levelling } = '../lib/levelling.js'
+import moment from 'moment-timezone'
+import { promises } from 'fs'
+import { join } from 'path'
+const time = moment.tz('Asia/Kolkata').format('HH')
+let wib = moment.tz('Asia/Kolkata').format('HH:mm:ss')
+//import db from '../lib/database.js'
+
+let handler = async (m, { conn, usedPrefix, command}) => {
+    let d = new Date(new Date + 3600000)
+    let locale = 'en'
+    let week = d.toLocaleDateString(locale, { weekday: 'long' })
+    let date = d.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' })
+    let _uptime = process.uptime() * 1000
+    let uptime = clockString(_uptime)
+let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+if (!(who in global.db.data.users)) throw `The user is not found in my database`
+let pp = './Hentai.jpg'
+let user = global.db.data.users[who]
+let { name, exp, diamond, lastclaim, registered, regTime, age, level, role, warn } = global.db.data.users[who]
+let { min, xp, max } = xpRange(user.level, global.multiplier)
+let username = conn.getName(who)
+let math = max - xp
+let prem = global.prems.includes(who.split`@`[0])
+let sn = createHash('md5').update(who).digest('hex')
+let totaluser = Object.values(global.db.data.users).length 
+let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length 
+let more = String.fromCharCode(8206)
+let readMore = more.repeat(850) 
+let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
+let str = `
+💝𝗛𝗲𝘆 𝗧𝗵𝗲𝗿𝗲 QUEEN 𝗛𝗘𝗡𝗧𝗔𝗜 𝗕𝗼𝘁 𝗢𝗻𝗹𝗶𝗻𝗲 𝗡𝗼𝘄 ⭕
+
+🌀Hello ${name}
+
+╭───────────────◆
+│➭ 🤖 Bot Name : Quᴇᴇɴ ʜᴇɴᴛᴀɪ👑
+│➭ 👨‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲 By : Dinuwa Official²⁰²³ 💝
+│➭ 📱 Owner Number : 94740804536
+│➭ ⏰ Uptime : ${uptime}
+│➭ 🧿 Server : SLT
+│➭ 🚉 Platform : Linux
+│➭ 🖊️ Prefix : { . }
+│➭ ⚙️ MOD : Public
+╰────────────────◆
+
+🔮 Type .menu For My command List. 
+
+  ✰  💝 Queen Hentai 💝 ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ✰
+`
+    conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, false, { mentions: [who] })
+    m.react(done)
+
+}
+handler.help = ['main']
+handler.tags = ['group']
+handler.command = ['alive', 'dinu','hi','bot'] 
+
+export default handler
+function clockString(ms) {
+    let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
+    let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
+    let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
+    return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
+    
+    function ucapan() {
+      const time = moment.tz('Asia/Kolkata').format('HH')
+      let res = "happy early in the day☀️"
+      if (time >= 4) {
+        res = "Good Morning 🌄"
+      }
+      if (time >= 10) {
+        res = "Good Afternoon ☀️"
+      }
+      if (time >= 15) {
+        res = "Good Afternoon 🌇"
+      }
+      if (time >= 18) {
+        res = "Good Night 🌙"
+      }
+      return res
+    }
