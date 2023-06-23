@@ -51,8 +51,8 @@ QUEEN HENTAI Multi Device Whatsapp Bot.
 ---------
 
 ## ```HEROKU TUTORIAL```
-    <br>
-<p align="center"><a href="https://youtu.be/udsSWHUyAy4"> <img src="https://img.shields.io/badge/heroku%20Tutorial-green?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+[![YOUTUBE](https://img.shields.io/badge/HEROKU%20TUTORIAL-25D366?style=for-the-badge&logo=youtube&logoColor=red)](https://youtu.be/udsSWHUyAy4) 
+---------
 
 ## ```STEPS TO DEPLOY ON HEROKU```
 
