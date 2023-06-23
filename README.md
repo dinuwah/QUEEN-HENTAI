@@ -50,6 +50,10 @@ QUEEN HENTAI Multi Device Whatsapp Bot.
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dinuwah/QUEEN-HENTAI)
 ---------
 
+## ```HEROKU TUTORIAL```
+    <br>
+<p align="center"><a href="https://youtu.be/udsSWHUyAy4"> <img src="https://img.shields.io/badge/heroku%20Tutorial-green?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+
 ## ```STEPS TO DEPLOY ON HEROKU```
 
 - 1. Fork this repo (Don't forget to give a star)
