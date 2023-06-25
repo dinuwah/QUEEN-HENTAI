@@ -90,8 +90,8 @@ QUEEN HENTAI Multi Device Whatsapp Bot.
 
 
 ## Special Thanks To
-💭 Xeon ( cheems wa owner )
-💭 Guru ( guru wa owner )
-💭 Mr nima ( Elisa wa owner )
-💭 Abhishek ( Abhishek wa owner )
+- 1. 💭 Xeon ( cheems wa owner )
+- 2. 💭 Guru ( guru wa owner )
+- 3. 💭 Mr nima ( Elisa wa owner )
+- 4. 💭 Abhishek ( Abhishek wa owner )
 ---------
