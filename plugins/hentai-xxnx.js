@@ -3,20 +3,20 @@ import fetch from 'node-fetch';
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
   let chat = global.db.data.chats[m.chat];
   if (!chat.nsfw)
-    throw `🚫 This group does not support NSFW.\n\nTo turn it on, use: *${usedPrefix}enable* nsfw`;
+    throw `💝 QUEEN HENTAI 💝  does not support NSFW.\n\nTo turn it on, use: ${usedPrefix}on nsfw \n\n🤤🤤🤤🤤🤤🤤🤤🤤🤤`;
 
   let user = global.db.data.users[m.sender].age;
   if (user < 17)
-    throw `❎ Age must be 18 or above to use this feature`;
+    throw `Bza,18+ hode. 😁 Age must be 18`;
 
   if (!text)
-    throw `✳️ What do you want to search?\n📌 Usage: *${usedPrefix + command} <search>\n\nExample: Hot desi bhabi or you can use a link as well\nExample: .xnxx link *`;
+    throw `💝 QUEEN HENTAI 💝 , What do you want to search on 💝 QUEEN HENTAI 💝?\n📌 Usage: ${usedPrefix + command} <search>\n\nEx:Mia කලීපා 🤣  or bza can use a link \nEx: .xnxx link *`;
 
   m.react(rwait);
 
   if (text.includes('http://') || text.includes('https://')) {
     if (!text.includes('xnxx.com'))
-      return m.reply(`❎ Invalid link. Only *xnxx.com* links are supported`);
+      return m.reply(`Invalid link. Only *xnxx.com*, Generated 💝 QUEEN HENTAI 💝`);
 
     try {
       let xnResponse = await fetch(
@@ -31,12 +31,18 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
           m.chat,
           xnJson.data.high,
           'xnxx_video.mp4',
-          `
-≡  *XNXX DL*\n
-${xnJson.data.duration ? `▢ *⌚Duration:* ${xnJson.data.duration}\n` : ''}
- *Quality:* High
+          `Queen Hentai Adult Video
+          Downloader
 
-© ${xnJson.creator}
+
+            
+ 🇱🇰  Title: ${xn.result.title}
+
+
+ 🇱🇰  Duration: ${xn.result.duration}
+
+
+ 🇱🇰  Quality: ${xn.result.quality}
           `.trim(),
           m,
           false,
@@ -46,11 +52,11 @@ ${xnJson.data.duration ? `▢ *⌚Duration:* ${xnJson.data.duration}\n` : ''}
         m.react(done);
       } else {
         console.error('XNXX DL Error: Invalid response format');
-        m.reply(`🔴 Error: We are experiencing issues. Please try again later.`);
+        m.reply(`💝 QUEEN HENTAI 💝 Error`);
       }
     } catch (e) {
       console.error('XNXX DL Error:', e);
-      m.reply(`🔴 Error: We are experiencing issues. Please try again later.`);
+      m.reply(`💝 QUEEN HENTAI 💝 Error`);
     }
   } else {
     try {
@@ -77,11 +83,11 @@ ${xnJson.data.duration ? `▢ *⌚Duration:* ${xnJson.data.duration}\n` : ''}
         m.reply(ff);
       } else {
         console.error('XNXX Search Error: No results found');
-        m.reply(`❎ No results found for the search query.`);
+        m.reply(` No results found for the 💝 QUEEN HENTAI 💝 search list.`);
       }
     } catch (e) {
       console.error('XNXX Search Error:', e);
-      m.reply(`🔴 Error: We are experiencing issues. Please try again later.`);
+      m.reply(`💝 QUEEN HENTAI 💝 Error`);
     }
   }
 };
