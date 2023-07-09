@@ -1,6 +1,6 @@
 
-import { xnxxSearch, xnxxdl } from '../lib/scraper.js';
-
+import fetch from 'node-fetch'
+import fg from 'api-dylux'
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 
  let chat = global.db.data.chats[m.chat]
