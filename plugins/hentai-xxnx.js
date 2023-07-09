@@ -1,1 +1,79 @@
-function _0x1273(_0x51425d,_0x2ea875){const _0x278f02=_0x278f();return _0x1273=function(_0x12736a,_0x1c4298){_0x12736a=_0x12736a-0x1cc;let _0x46cb29=_0x278f02[_0x12736a];return _0x46cb29;},_0x1273(_0x51425d,_0x2ea875);}const _0x190b54=_0x1273;(function(_0x156d31,_0x47b82c){const _0x29f66d=_0x1273,_0x3d5f4a=_0x156d31();while(!![]){try{const _0xc46575=-parseInt(_0x29f66d(0x1fe))/0x1+parseInt(_0x29f66d(0x1f2))/0x2*(parseInt(_0x29f66d(0x1cd))/0x3)+parseInt(_0x29f66d(0x1ef))/0x4+-parseInt(_0x29f66d(0x1de))/0x5+-parseInt(_0x29f66d(0x1d8))/0x6*(parseInt(_0x29f66d(0x1d9))/0x7)+-parseInt(_0x29f66d(0x1d0))/0x8+parseInt(_0x29f66d(0x1cf))/0x9;if(_0xc46575===_0x47b82c)break;else _0x3d5f4a['push'](_0x3d5f4a['shift']());}catch(_0x453517){_0x3d5f4a['push'](_0x3d5f4a['shift']());}}}(_0x278f,0xf0ebe));import _0x48e8b3 from'node-fetch';import _0x3d7329 from'api-dylux';let handler=async(_0x353206,{conn:_0x421b0d,args:_0x14dd41,text:_0x315371,usedPrefix:_0x140b55,command:_0x151982})=>{const _0x295c22=_0x1273;let _0x1086ff=global['db']['data'][_0x295c22(0x1f7)][_0x353206[_0x295c22(0x1ea)]];if(!_0x1086ff[_0x295c22(0x1d1)])throw _0x295c22(0x1f1)+_0x140b55+'enable*\x20nsfw';let _0xcb37c=global['db'][_0x295c22(0x1da)]['users'][_0x353206[_0x295c22(0x1ed)]]['age'];if(_0xcb37c<0x11)throw _0x295c22(0x1e9);if(!_0x315371)throw _0x295c22(0x1fc)+(_0x140b55+_0x151982)+_0x295c22(0x1f8);_0x353206['react'](rwait);if(_0x315371['includes']('http://')||_0x315371[_0x295c22(0x1e3)](_0x295c22(0x1df))){if(!_0x315371[_0x295c22(0x1e3)]('xnxx.com'))return _0x353206[_0x295c22(0x1f3)](_0x295c22(0x1d3));try{let _0xa3c331=await(await _0x48e8b3(global['API'](_0x295c22(0x1d2),_0x295c22(0x1e6),{'url':_0x315371},'apikey')))[_0x295c22(0x1cc)]();_0x421b0d['sendFile'](_0x353206[_0x295c22(0x1ea)],_0xa3c331['result'][_0x295c22(0x1e4)]['high'],_0xa3c331[_0x295c22(0x1f9)][_0x295c22(0x1f6)]+'.mp4',(_0x295c22(0x1dc)+_0xa3c331['result']['title']+_0x295c22(0x1e8)+_0xa3c331[_0x295c22(0x1f9)]['duration']+_0x295c22(0x1e5)+_0xa3c331[_0x295c22(0x1f9)][_0x295c22(0x1e7)]+'\x0a')['trim'](),_0x353206,![],{'asDocument':_0x1086ff['useDocument']}),_0x353206[_0x295c22(0x1dd)](done);}catch(_0x20eda7){_0x353206[_0x295c22(0x1f3)](_0x295c22(0x1d4));}}else try{let _0x31094a=await _0x48e8b3(global['API'](_0x295c22(0x1d2),_0x295c22(0x1e0),{'text':_0x315371},_0x295c22(0x1db))),_0x1e0b34=await _0x31094a[_0x295c22(0x1cc)](),_0x5b64fd=[];Object[_0x295c22(0x1d5)](_0x1e0b34[_0x295c22(0x1f9)])[_0x295c22(0x1e2)]((_0x27479e,_0x4e3e1e)=>{const _0x28a93f=_0x295c22;_0x5b64fd['push']([_0x4e3e1e+'┃\x20'+_0x27479e[_0x28a93f(0x1f6)],[[_0x28a93f(0x1ce),_0x140b55+_0x28a93f(0x1f4)+_0x27479e[_0x28a93f(0x1fd)],_0x28a93f(0x1f0)+_0x27479e[_0x28a93f(0x1f6)]]]]);});let _0x4a5500=_0x1e0b34[_0x295c22(0x1f9)][_0x295c22(0x1e2)]((_0x59bea7,_0x9c3d95)=>_0x9c3d95+0x1+'┃\x20*Title*\x20:\x20'+_0x59bea7['title']+_0x295c22(0x1d7)+_0x59bea7[_0x295c22(0x1fd)]+'\x0a')[_0x295c22(0x1e1)]('\x0a');if(_0x1e0b34[_0x295c22(0x1fa)])_0x353206[_0x295c22(0x1f3)](_0x4a5500);}catch(_0x10ffa1){_0x353206['reply'](_0x295c22(0x1d4));}};handler[_0x190b54(0x1ff)]=['xnxx'],handler[_0x190b54(0x1d6)]=[_0x190b54(0x1d1),_0x190b54(0x1f5)],handler[_0x190b54(0x1ec)]=[_0x190b54(0x1eb),'xnxxdl','xnxx'],handler[_0x190b54(0x1fb)]=![],handler['premium']=![],handler[_0x190b54(0x1ee)]=![];function _0x278f(){const _0x47cd0f=['3298425mdywGG','https://','/api/search/xnxxsearch','join','map','includes','files','\x0a\x0a\x20🇱🇰\x20\x20*Quality:\x20','/api/dowloader/xnxxdl','quality','\x0a\x0a\x20🇱🇰\x20\x20*Duration:\x20','💝\x20Queen\x20Hentai\x20💝\x20age\x20must\x20be\x2018\x20to\x20use\x20this\x20feature\x20,\x20Therefore\x20type\x20.qhw','chat','xnxxsearch','command','sender','register','2485868RfWHsW','▢\x20🇱🇰\x20*Título*\x20:\x20','💝\x20Queen\x20Hentai\x20💝\x20this\x20group\x20doesnot\x20support\x20nsfw\x20\x0a\x0ato\x20turn\x20on\x20\x20\x0a*','52NybGsV','reply','xnxxdl\x20','prem','title','chats','\x20<search>\x0a\x0aExample:-\x20Mia\x20කලීපා\x20😂\x0aEx:\x20.xnxx\x20link\x20','result','status','diamond','💝\x20Queen\x20Hentai\x20💝\x20what\x20to\x20search?\x0a🤤\x20Type\x20:\x20*','link','1364953cIHbvl','help','json','113559qtJaMi','🇱🇰\x20MP4','33765273wKWNxy','14249192lrOlyJ','nsfw','fgmods','💝\x20Queen\x20Hentai\x20💝\x20Invalid\x20link\x20\x20*xnxx.com*','💝\x20Queen\x20Hentai\x20💝\x20Error','values','tags','\x0a*Link:\x20','18zOhtbc','1317729vVKeRP','data','apikey','\x0a*Queen\x20Hentai\x20Adult\x20Video\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*Downloader*\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x0a\x20🇱🇰\x20\x20*Title*:\x20','react'];_0x278f=function(){return _0x47cd0f;};return _0x278f();}export default handler;
+
+import { xnxxSearch, xnxxdl } from '../lib/scraper.js';
+
+
+
+let handler = async (m, { conn, args, text, usedPrefix, command }) => {
+  let chat = global.db.data.chats[m.chat];
+  if (!chat.nsfw) throw `💝 QUEEN HENTAI 💝  does not support NSFW.\n\nTo turn it on, use: ${usedPrefix}on nsfw \n\n🤤🤤🤤🤤🤤🤤🤤🤤🤤`;
+  let user = global.db.data.users[m.sender].age;
+  if (user < 18) throw `Bza,18+ hode. 😁You must be 18 year.`;
+  if (!text) throw `💝 QUEEN HENTAI 💝 , What do you want to search on 💝 QUEEN HENTAI 💝?\n📌 Usage: ${usedPrefix + command} <search>\n\nEx:Mia කලීපා 🤣  or bza can use a link \nEx: .xnxx link *`;
+
+  m.react('🇱🇰');
+
+  let url;
+  try {
+    url = new URL(text);
+  } catch (error) {
+    url = null;
+  }
+
+  if (url) {
+    try {
+      const files = await xnxxdl(url.href);
+      if (files && files.high) {
+        conn.sendFile(
+          m.chat,
+          files.high,
+          'video.mp4',
+          'Queen Hentai Adult Video
+          Downloader
+
+
+            
+ 🇱🇰  Title: ${xn.result.title}
+
+
+ 🇱🇰  Duration: ${xn.result.duration}
+
+
+ 🇱🇰  Quality: ${xn.result.quality}',
+          m
+        );
+        m.react('🤤');
+      } else {
+        m.reply('*💝 QUEEN HENTAI 💝 Failed to found the download link*.');
+      }
+    } catch (e) {
+      console.error(e);
+      m.reply('*💝 QUEEN HENTAI 💝 Error*');
+    }
+  } else {
+    try {
+      const results = await xnxxSearch(text);
+      if (results.length > 0) {
+        const message = results.map((r, i) => `${i + 1}. [${r.title}](${r.link})`).join('\n');
+        m.reply(message, null, {
+          contextInfo: {
+            mentionJid: conn.parseMention(message),
+          },
+        });
+      } else {
+        m.reply('*💝 QUEEN HENTAI 💝 search results not found*.');
+      }
+    } catch (e) {
+      console.error(e);
+      m.reply('*💝 QUEEN HENTAI 💝 Error*');
+    }
+  }
+};
+
+handler.help = ['xnxx'];
+handler.tags = ['nsfw', 'prem'];
+handler.command = ['xnxxsearch', 'xnxxdl', 'xnxx'];
+handler.group = true;
+handler.premium = false;
+handler.register = true;
+
+export default handler;
