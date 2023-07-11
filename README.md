@@ -20,7 +20,7 @@
 <a 
 
 ####  
-QUEEN HENTAI Multi Device Whatsapp Bot.
+QUEEN HENTAI Multi Device 18+ Adult Video Downloader Whatsapp Bot.
 
 ***
 
@@ -36,7 +36,7 @@ QUEEN HENTAI Multi Device Whatsapp Bot.
 
 ### a little about this bot
 - ✔️ | **Simple** 
-- ✔️ | **Button Template** 
+- ✔️ | **18+ Adult Video Downloader** 
 - ✔️ | **Multi Device** 
 - ✔️ | **Button Document(Experiment)** 
 ---------
