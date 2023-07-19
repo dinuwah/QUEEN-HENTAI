@@ -8,7 +8,7 @@ import os from 'os';
 const streamPipeline = promisify(pipeline);
 
 var handler = async (m, { conn, command, text, usedPrefix }) => {
-  if (!text) throw `Use example ${usedPrefix}${command} naruto blue bird`;
+  if (!text) throw `Use example ${usedPrefix}${command} Queen Hentai Bot`;
   await m.react(rwait);
 
   let search = await yts(text);
@@ -81,4 +81,3 @@ handler.exp = 0;
 handler.diamond = false;
 
 export default handler;
-
