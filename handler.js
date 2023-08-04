@@ -673,46 +673,91 @@ export async function participantsUpdate({ id, participants, action }) {
     let chat = global.db.data.chats[id] || {}
     let text = ''
     switch (action) {
-        case 'add':
-        case 'remove':
+   case 'add':
             if (chat.welcome) {
-                let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata
-                for (let user of participants) {
-                    let pp = 'https://i.imgur.com/bFEC7lC.jpeg'
-                    let ppgp = 'https://i.imgur.com/bFEC7lC.jpeg'
-                    try {
-                        pp = await this.profilePictureUrl(user, 'image')
-                        ppgp = await this.profilePictureUrl(id, 'image')
-                        } finally {
-                        text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user').replace('@group', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || 'Desconocido') :
-                            (chat.sBye || this.bye || conn.bye || 'HELLO This Is 💝 Queen Hentai 💝, @user')).replace('@user', '@' + user.split('@')[0])
-                         
-                            let wel = API('fgmods', '/api/welcome', {
-                                username: await this.getName(user),
-                                groupname: await this.getName(id),
-                                groupicon: ppgp,
-                                membercount: groupMetadata.participants.length,
-                                profile: pp,
-                                background: 'https://i.imgur.com/bFEC7lC.jpeg'
-                            }, 'apikey')
-
-                            let lea = API('fgmods', '/api/goodbye', {
-                                username: await this.getName(user),
-                                groupname: await this.getName(id),
-                                groupicon: ppgp,
-                                membercount: groupMetadata.participants.length,
-                                profile: pp,
-                                background: 'https://i.imgur.com/bFEC7lC.jpeg'
-                            }, 'apikey')
-                             this.sendFile(id, action === 'add' ? wel : lea, 'pp.jpg', text, null, false, { mentions: [user] })
-                            /*this.sendButton(id, text, igfg, action === 'add' ? wel : lea, [
-                             [(action == 'add' ? '⦙☰ MENU' : 'BYE'), (action == 'add' ? '/help' : '')], 
-                             [(action == 'add' ? '⏍ INFO' : 'ッ'), (action == 'add' ? '/info' : ' ')] ], null, {mentions: [user]})
-                          */
-                    }
+              let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata;
+              for (let user of participants) {
+                let pp, ppgp;
+                try {
+                  pp = await this.profilePictureUrl(user, 'image');
+                  ppgp = await this.profilePictureUrl(id, 'image');
+                } catch (error) {
+                  console.error(`Error retrieving profile picture: ${error}`);
+                  pp = 'https://i.imgur.com/8B4jwGq.jpeg';
+                  ppgp = 'https://i.imgur.com/8B4jwGq.jpeg'; 
+                } finally {
+                  let text = (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user')
+                    .replace('@group', await this.getName(id))
+                    .replace('@desc', groupMetadata.desc?.toString() || 'Desconocido')
+                    .replace('@user', '@' + user.split('@')[0]);
+          
+                  let nthMember = groupMetadata.participants.length;
+                  let secondText = `Welcome, ${await this.getName(user)}, our ${nthMember}th member`;
+          
+                  let welcomeApiUrl = `https://wecomeapi.onrender.com/welcome-image?username=${encodeURIComponent(
+                    await this.getName(user)
+                  )}&guildName=${encodeURIComponent(await this.getName(id))}&guildIcon=${encodeURIComponent(
+                    ppgp
+                  )}&memberCount=${encodeURIComponent(
+                    nthMember.toString()
+                  )}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(
+                    'https://wallpapercave.com/dwp1x/TaBiJe9.jpg'
+                  )}`;
+          
+                  try {
+                    let welcomeResponse = await fetch(welcomeApiUrl);
+                    let welcomeBuffer = await welcomeResponse.buffer();
+          
+                    this.sendFile(id, welcomeBuffer, 'welcome.png', text, null, false, { mentions: [user] });
+                  } catch (error) {
+                    console.error(`Error generating welcome image: ${error}`);
+                  }
                 }
+              }
             }
-            break
+            break;
+
+		case 'remove':
+            if (chat.welcome) {
+              let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata;
+              for (let user of participants) {
+                let pp, ppgp;
+                try {
+                  pp = await this.profilePictureUrl(user, 'image');
+                  ppgp = await this.profilePictureUrl(id, 'image');
+                } catch (error) {
+                  console.error(`Error retrieving profile picture: ${error}`);
+                  pp = 'https://i.imgur.com/8B4jwGq.jpeg'; 
+                  ppgp = 'https://i.imgur.com/8B4jwGq.jpeg'; 
+                } finally {
+                  let text = (chat.sBye || this.bye || conn.bye || 'HELLO, @user')
+                    .replace('@user', '@' + user.split('@')[0]);
+          
+                  let nthMember = groupMetadata.participants.length;
+                  let secondText = `Goodbye, our ${nthMember}th group member`;
+          
+                  let leaveApiUrl = `https://wecomeapi.onrender.com/leave-image?username=${encodeURIComponent(
+                    await this.getName(user)
+                  )}&guildName=${encodeURIComponent(await this.getName(id))}&guildIcon=${encodeURIComponent(
+                    ppgp
+                  )}&memberCount=${encodeURIComponent(
+                    nthMember.toString()
+                  )}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(
+                    'https://wallpapercave.com/dwp1x/TaBiJe9.jpg'
+                  )}`;
+          
+                  try {
+                    let leaveResponse = await fetch(leaveApiUrl);
+                    let leaveBuffer = await leaveResponse.buffer();
+          
+                    this.sendFile(id, leaveBuffer, 'leave.png', text, null, false, { mentions: [user] });
+                  } catch (error) {
+                    console.error(`Error generating leave image: ${error}`);
+                  }
+                }
+              }
+            }
+            break;    
         case 'promote':
         case 'promover':
             text = (chat.sPromote || this.spromote || conn.spromote || '@user is now administrador by 💝 Queen Hentai 💝')
