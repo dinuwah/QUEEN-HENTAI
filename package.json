@@ -55,6 +55,7 @@
         "file-type": "^18.0.0",
         "fluent-ffmpeg": "^2.1.2",
         "formdata-node": "^5.0.0",
+        "hirunews-scraper": "latest",
         "human-readable": "^0.2.1",
         "instagram-url-direct": "^1.0.12",
         "jsdom": "^20.0.1",
