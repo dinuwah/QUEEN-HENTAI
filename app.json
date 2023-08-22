@@ -4,9 +4,13 @@
   "repository": "https://github.com/dinuwah/QUEEN-HENTAI",
   "logo": "https://i.ibb.co/T1DqdYz/thumbnail.jpg",
   "keywords": ["bot", "whatsapp", "whatsapp-bot", "QUEEN HENTAI", "GURU-bot-md", "GURU-bot"],
+  "stack": "container",
   "buildpacks": [
     {
       "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
     },
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
