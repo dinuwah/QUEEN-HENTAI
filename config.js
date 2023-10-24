@@ -7,13 +7,13 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['94740804536', 'Dinuwa Official²⁰²³', true],
-  ['94740804536', 'Dinuwa Official²⁰²³', true], 
+  ['03480169055', 'Mahar Muzammil Official²⁰²³', true],
+  ['03480169055', 'Mahar Muzammil Official²⁰²³', true], 
   [''] 
 ] //Number of owners
 
-global.mods = ['94740804536','94740804536'] 
-global.prems = ['94740804536', '94740804536', '94740804536']
+global.mods = ['03480169055','03480169055'] 
+global.prems = ['03480169055', '03480169055', '03480169055']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -49,13 +49,15 @@ global.APIKeys = { // APIKey Here
 // Sticker WM
 global.botname = '💝 Queen Hentai 💝'
 global.premium = 'true'
-global.packname = '💝 Queen Hentai 💝 Created By 💝 Dinuwa Official²⁰²³ 💝' 
+global.packname = '💝 Queen Hentai 💝 Created By 💝 Mahar Muzammil Official²⁰²³ 💝' 
 global.author = '💝 Dinuwa Official²⁰²³ 💝' 
-global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/Dinuwa Official²⁰²³\n' 
+global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/Mahar Muzammil Official²⁰²³\n' 
 global.dygp = 'https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S'
 global.fgsc = 'https://github.com/dinuwah/QUEEN-HENTAI' 
-global.fgyt = 'https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S'
-global.fgpyp = 'https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S'
+global.fgyt = 'https://chat.whatsapp.com/Let's chat on WhatsApp! It's a fast, simple, and secure app we can use to message and call each other for free. Get it at https://whatsapp.com/dl/
+
+'
+global.fgpyp = 'https://chat.whatsapp.com/https://whatsapp.com/dl/'
 global.fglog = 'https://i.ibb.co/T1DqdYz/thumbnail.jpg' 
 
 
