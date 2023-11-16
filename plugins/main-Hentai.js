@@ -8,7 +8,7 @@ https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S
 https://github.com/dinuwah/QUEEN-HENTAI
  
 🔊 *Contact*
-wa.me:94740804536
+wa.me:94767939688
 
 🔊 *Instagram*
 https://instagram.com/Dinuwa Official²⁰²³
