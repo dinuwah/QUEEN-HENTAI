@@ -91,6 +91,6 @@ handler.command = ['xnxxsearch', 'xnxxdl', 'xnxx'];
 handler.diamond = false;
 handler.premium = false;
 handler.group = true
-handler.register = true;
+handler.register = false;
 
 export default handler;
